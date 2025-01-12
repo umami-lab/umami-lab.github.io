@@ -2,10 +2,10 @@
 
 ![](/images/pasta-salad.jpg)
 
-## Zutaten
+## Ingrédients
 
 TODO
 
-## Zubereitung
+## Etapes
 
 TODO

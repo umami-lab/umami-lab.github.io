@@ -2,7 +2,7 @@
 
 ## 🍝 Plats principaux
 
-- [Tomatensuppe](/?recipe=tomatosoup)
+- [Soupe à la tomate](/?recipe=tomatosoup)
 - [Pizza](/?recipe=pizza)
 - [Ragù bolognese](/?recipe=bolognese)
 
@@ -14,9 +14,9 @@
 
 ## 🥗 Suppléments
 
-- [Röstkartoffeln](/?recipe=roast-potatoes)
-- [Nudelsalat](/?recipe=pasta-salad)
-- [Arroz Rojo / Mexikanischer Reis](/?recipe=arroz-rojo)
+- [Pommes de terre rôties](/?recipe=roast-potatoes)
+- [Salade de pâtes](/?recipe=pasta-salad)
+- [Arroz Rojo / Riz mexicain](/?recipe=arroz-rojo)
 
 ## 🍰 Desserts
-- [Tarte-tatin](/?recipe=Tarte-tatin)
+- [Tarte Tatin](/?recipe=Tarte-tatin)
