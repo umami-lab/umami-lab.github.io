@@ -1,6 +1,6 @@
-# Rezepte
+# Recettes
 
-## 🍝 Haupgerichte
+## 🍝 Plats principaux
 
 - [Tomatensuppe](/?recipe=tomatosoup)
 - [Pizza](/?recipe=pizza)
@@ -12,8 +12,11 @@
 - [Nachos](/?recipe=nachos)
 - [Enchiladas](/?recipe=enchiladas)
 
-## 🥗 Beilagen
+## 🥗 Suppléments
 
 - [Röstkartoffeln](/?recipe=roast-potatoes)
 - [Nudelsalat](/?recipe=pasta-salad)
 - [Arroz Rojo / Mexikanischer Reis](/?recipe=arroz-rojo)
+
+## 🍰 Desserts
+- [Tarte-tatin](/?recipe=Tarte-tatin)
