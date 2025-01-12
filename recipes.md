@@ -4,6 +4,7 @@
 
 - [Tomatensuppe](/?recipe=tomatosoup)
 - [Pizza](/?recipe=pizza)
+- [Ragù bolognese](/?recipe=bolognese)
 
 ## 🍔 Fast Food
 
