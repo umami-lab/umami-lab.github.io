@@ -2,7 +2,7 @@
 
 ## 🍝 Plats principaux
 
-- [Soupe à la tomate](/?recipe=tomatosoup)
+- [Gaspacho](/?recipe=tomatosoup)
 - [Pizza](/?recipe=pizza)
 - [Ragù bolognese](/?recipe=bolognese)
 
