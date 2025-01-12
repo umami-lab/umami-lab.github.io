@@ -1,56 +1,56 @@
 # Enchiladas
 
-## Zutaten
+## Ingrédients  
 
-### Für 4 Portionen
+### Pour 4 portions  
 
-- **1** Zwiebel
-- **1** Knoblauchzehe
-- **350g** Hackfleisch
-- **150g** Mais (Dose)
-- **400g** Kidneybohnen (Dose)
-- **2** Tomaten (25% davon für Dip)
-- **150ml** Salsa-Sauce
-- **4** Tortillas
+- **1** oignon  
+- **1** gousse d'ail  
+- **350 g** de viande hachée  
+- **150 g** de maïs (en boîte)  
+- **400 g** de haricots rouges (en boîte)  
+- **2** tomates (25 % pour le dip)  
+- **150 ml** de sauce salsa  
+- **4** tortillas  
 
-### Für die Sauce
+### Pour la sauce  
 
-- **75g** Cheddar
-- **100g** Schmand
+- **75 g** de cheddar  
+- **100 g** de crème fraîche épaisse  
 
-### Für den Dip
+### Pour le dip  
 
-- **1** Avocado
-- **1EL** Zitronensaft
+- **1** avocat  
+- **1 cuillère à soupe** de jus de citron  
 
-## Zubereitung
+## Préparation  
 
-### Füllung
+### Garniture  
 
-- Zwiebel und Knoblauch klein würfeln
-- Bohnen und Mais abgiesen (und optional abwaschen)
-- 75% der Tomaten grob schneiden, 25% fein
-- Hackfleisch mit Öl anbraten und nach einer Weile Ziebeln dazu geben
-- Kurz bevor das Hackfleich fertig ist den Knoblauch noch kurz mit anbraten
-- Salsa-Sauce, Bohnen, Mais und grob geschnittene Tomaten hinzugeben
-- Mit Pfeffer, Salz und Chillipulver kräftig (!) würzen
+- Couper l'oignon et l'ail en petits dés.  
+- Égoutter les haricots rouges et le maïs (et les rincer si souhaité).  
+- Couper 75 % des tomates en gros morceaux et 25 % en petits morceaux.  
+- Faire revenir la viande hachée avec un peu d'huile, puis ajouter l'oignon au bout de quelques minutes.  
+- Juste avant que la viande hachée ne soit cuite, ajouter l'ail et faire revenir brièvement.  
+- Incorporer la sauce salsa, les haricots rouges, le maïs et les tomates grossièrement coupées.  
+- Assaisonner généreusement avec du sel, du poivre et du piment en poudre.  
 
-### Sauce
+### Sauce  
 
-- Käse reiben und mit Schmand vermischen
+- Râper le cheddar et le mélanger avec la crème fraîche.  
 
-### Tortillas füllen
+### Farcir les tortillas  
 
-- 1/3 der Füllung auf dem Boden einer Auflaufform verteilen
-- Die Tortillas mit der restlichen Füllung füllen, zusammenrollen und halbieren
-- Die Tortillas in die Auflaufschale legen
-- Die Sauce in Klecksen auf den zusammengerollten Tortillas verteilen
-- Für ca. 30 Minuten bei 200°C im Backofen backen
+- Étaler 1/3 de la garniture au fond d’un plat à gratin.  
+- Remplir les tortillas avec le reste de la garniture, les rouler et les couper en deux.  
+- Disposer les tortillas roulées dans le plat à gratin.  
+- Répartir la sauce en petites touches sur les tortillas roulées.  
+- Cuire au four à 200 °C pendant environ 30 minutes.  
 
-### Dip
+### Dip  
 
-- Fruchtfleisch der Avocado in einer Schale mit einer Gabel zerdrücken
-- Zitronensaft und fein geschnittene Tomaten zugeben und vermischen
-- Mit Salz und Pfeffer würzen
+- Écraser la chair de l'avocat dans un bol avec une fourchette.  
+- Ajouter le jus de citron et les tomates finement coupées, puis mélanger.  
+- Assaisonner avec du sel et du poivre.  
 
-*Original-Rezept: [Überbackene Enchiladas mit Avocado-Dip](https://www.chefkoch.de/rezepte/724711175200463/Ueberbackene-Enchiladas-mit-Avocado-Dip.html)*
+*Recette originale : [Enchiladas gratinées avec dip à l'avocat](https://www.chefkoch.de/rezepte/724711175200463/Ueberbackene-Enchiladas-mit-Avocado-Dip.html)*  

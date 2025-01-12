@@ -1,11 +1,11 @@
-# Tomatensuppe
+# Soupe à la tomate
 
 ![](/images/tomatosoup.jpg)
 
-## Zutaten
+## Ingrédients  
 
-TODO
+TODO  
 
-## Zubereitung
+## Préparation  
 
-TODO
+TODO  

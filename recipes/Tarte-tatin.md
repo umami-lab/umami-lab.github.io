@@ -19,7 +19,9 @@
 - **2** pincées de sel
 - **75 g** de beurre mou
 
-## Préparation des pommes
+## Etapes
+
+### Préparation des pommes
 
 Préchauffez le four à 180 degrés. Mettez l'eau et le sucre dans une casserole. Lors de la caramélisation, ajoutez le beurre, baissez le feu et mélangez.
 

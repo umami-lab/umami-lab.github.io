@@ -1,75 +1,63 @@
-# Smashed Burger
+# Smash Burger
 
 ![](/images/smashed-burger.jpg)
 
-## Zutaten
+## Ingrédients  
 
-### Für 4 Burger
+### Pour 4 burgers  
 
-- **4** Hamburger-Brötchen
-- **680g** Rinderhackfleisch
-- **8** Scheiben Cheddar Käse
-- **1** Tomate
-- **4** Esslöffel Butterschmalz
-- Salz
-- **0,2** Eisbergsalat
+- **4** pains à burger  
+- **680 g** de viande hachée de bœuf  
+- **8** tranches de cheddar  
+- **1** tomate  
+- **4 cuillères à soupe** de beurre clarifié  
+- Sel  
+- **1/4** de laitue iceberg  
 
-### Für die Sauce
+### Pour la sauce  
 
-- **120ml** Mayonnaise
-- **1/2** Zwiebel
-- **1** Teelöffel Wocestershire Sauce
-- **2** Teelöffel Chilli Sauce
-- **1** Esslöffel Senf
+- **120 ml** de mayonnaise  
+- **1/2** oignon  
+- **1 cuillère à café** de sauce Worcestershire  
+- **2 cuillères à café** de sauce chili  
+- **1 cuillère à soupe** de moutarde  
 
-## Zubereitung
+## Préparation  
 
-### Vorbereitung
+### Préparation  
 
-- Das Hackfleisch in 8 gleichgroße Teile aufteilen (je 85g) und zu runden
-Kügelchen formen. Diese dann in den Kühlschrank stellen
-- Den Eisbergsalat klein schneiden
-- Die Tomate in 8 dünne Scheiben schneiden
-(*Tipp: Die Tomate mit dem Strunk zur Seite gedreht schneiden*)
-- Die Zwiebel so klein wie möglich schneiden (am besten reiben)
+- Diviser la viande hachée en 8 parts égales (environ 85 g chacune) et former des boulettes rondes. Placer les boulettes au réfrigérateur.  
+- Émincer finement la laitue iceberg.  
+- Couper la tomate en 8 tranches fines (*Astuce : couper en gardant le pédoncule sur le côté*).  
+- Râper ou hacher l’oignon le plus finement possible.  
 
-### Sauce
+### Sauce  
 
-Die Zwiebel zusammen mit allen anderen Zutaten für die Sauce verrühren.
+Mélanger l’oignon râpé avec tous les autres ingrédients pour la sauce jusqu’à obtenir une consistance homogène.  
 
-### Brötchen rösten
+### Faire griller les pains  
 
-Butterschmalz in eine Pfanne auf mittlerer Hitze geben und die Brötchen darin
-goldbraun rösten.
+Faire chauffer le beurre clarifié dans une poêle à feu moyen et y faire griller les pains à burger jusqu’à ce qu’ils soient dorés.  
 
-### Fleisch anbraten
+### Cuisson de la viande  
 
-Anschließend die Hitze hochdrehen und die Fleisch-Kügelchen in die heiße Pfanne
-legen (ohne Öl oder Fett) und dann möglichst platt drücken. Die obere Seite
-anschließend mit Salz und Pfeffer würzen und einen kleinen Klecks der Sauce
-drauf geben. Ist die Unterseite schön braun, das Patty wenden. Kurz bevor
-es fertig ist, mit einer Scheibe Käse belegen. Wenn die Unterseite ebenfalls
-fertig ist, ein Patty auf das andere legen. Der Käse "klebt" sie dabei sozusagen
-zusammen.
+Augmenter la chaleur de la poêle et y déposer les boulettes de viande (sans huile ni matière grasse supplémentaire). Aplatir fortement les boulettes avec une spatule. Saler, poivrer le dessus, et ajouter une petite cuillère de sauce. Lorsque la face inférieure est bien dorée, retourner la boulette. Avant la fin de la cuisson, poser une tranche de cheddar sur chaque boulette. Une fois cuites, superposer deux boulettes, le fromage servant de "colle".  
 
-### Burger belegen
+### Montage du burger  
 
-Das untere Brötchen mit etwas Sauce bestreichen. Anschließend das Brötchen
-mit Salat, 2 Tomatenscheiben und dem Doppel-Patty belegen. Das Brötchen ist
-stabiler und lässt sich besser essen, wenn der Salat und die Tomaten unter
-dem Fleisch liegen. Anschließend den "Deckel" auf den Burger legen und fertig.
+Étaler un peu de sauce sur la base du pain. Ajouter la laitue, deux tranches de tomate, puis le double steak avec le cheddar fondu. Placer le chapeau du pain pour fermer le burger. Positionner les légumes sous la viande pour plus de stabilité et une meilleure prise en main.  
 
-*Original-Rezept: [Better Than Fast Food! Classic Smash Burger Recipe](https://youtu.be/foD42-73wdI)*
+*Recette originale : [Better Than Fast Food! Classic Smash Burger Recipe](https://youtu.be/foD42-73wdI)*  
 
-## Bilder
+## Images  
 
-![](/images/smashed-burger-1.jpg)
-![](/images/smashed-burger-2.jpg)
-![](/images/smashed-burger-3.jpg)
-![](/images/smashed-burger-4.jpg)
-![](/images/smashed-burger-5.jpg)
-![](/images/smashed-burger-6.jpg)
-![](/images/smashed-burger-7.jpg)
-![](/images/smashed-burger-8.jpg)
-![](/images/smashed-burger-9.jpg)
-![](/images/smashed-burger.jpg)
+![](/images/smashed-burger-1.jpg)  
+![](/images/smashed-burger-2.jpg)  
+![](/images/smashed-burger-3.jpg)  
+![](/images/smashed-burger-4.jpg)  
+![](/images/smashed-burger-5.jpg)  
+![](/images/smashed-burger-6.jpg)  
+![](/images/smashed-burger-7.jpg)  
+![](/images/smashed-burger-8.jpg)  
+![](/images/smashed-burger-9.jpg)  
+![](/images/smashed-burger.jpg)  

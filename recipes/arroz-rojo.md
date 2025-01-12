@@ -1,68 +1,56 @@
-# Arroz Rojo / Mexikanischer Reis
+# Arroz Rojo / Riz Mexicain  
 
-![](/images/arroz-rojo.jpg)
+![](/images/arroz-rojo.jpg)  
 
-## Zutaten
+## Ingrédients  
 
-### Für 2 Portionen
+### Pour 2 portions  
 
-- **200g** Langkorn Reis
-- **2 Esslöffel** Olivenöl
-- **1** mittelgroße Zwiebel
-- **4** Knoblauchzehen
-- **1** große Karotte
-- **1** rote Paprika
-- **4** Tomaten
-- **1 Tasse** Erbsen
-- **2** rote Chilli
-- **250ml** Gemüsebrühe
-- **1/2 Teelöffel** Salz
-- **1/2 Teelöffel** Pfeffer
-- **1/2 Teelöffel** Cumin
-- **1 Teelöffel** Chillipulver
+- **200 g** de riz long  
+- **2 cuillères à soupe** d'huile d'olive  
+- **1** oignon moyen  
+- **4** gousses d'ail  
+- **1** grande carotte  
+- **1** poivron rouge  
+- **4** tomates  
+- **1 tasse** de petits pois  
+- **2** piments rouges  
+- **250 ml** de bouillon de légumes  
+- **1/2 cuillère à café** de sel  
+- **1/2 cuillère à café** de poivre  
+- **1/2 cuillère à café** de cumin  
+- **1 cuillère à café** de poudre de piment  
 
-## Zubereitung
+## Préparation  
 
-### Reis vorbereiten
+### Préparer le riz  
 
-Den Reis von Stärke befreien. Hierfür den Reis in eine Schüssel mit Wasser
-füllen und gründlich abwaschen. Anschließend in einen Sieb füllen und mit
-frischen Wasser so lange wiederholen, bis das Wasser nicht mehr trüb wird.
-Dieser Schritt ist wichtig, da der Reis sonst leicht matschig wird.
+Rincer le riz pour enlever l’amidon. Pour cela, mettre le riz dans un bol rempli d’eau et le laver soigneusement. Ensuite, verser le riz dans une passoire et répéter avec de l’eau propre jusqu’à ce que l’eau soit claire. Cette étape est importante pour éviter que le riz ne devienne trop collant.  
 
-### Zutaten vorbereiten
+### Préparer les ingrédients  
 
-Die Zwiebel und den Knoblauch klein schneiden, in eine kleine Schale füllen und
-zur Seite stellen
+Émincer l’oignon et l’ail, puis les placer dans un petit bol et réserver.  
 
-Die Karotte, Paprika und Chilli klein schneiden und in eine Schüssel füllen. Die
-Erbsen ebenfalls in die Schüssel füllen. Die Gewürze ebenfalls in die Schüssel
-geben.
+Couper la carotte, le poivron et les piments en petits morceaux, puis les mettre dans un bol. Ajouter les petits pois et les épices dans le même bol.  
 
-Die Tomaten pürieren.
+Mixer les tomates pour obtenir une purée.  
 
-### Zwiebeln und Knoblauch anbraten
+### Faire revenir les oignons et l’ail  
 
-Das Olivenöl in einen Topf geben und auf mittlere Hitze erhitzen. Anschließend
-die Zwiebeln und den Knoblauch für ca. 2 Minuten anbraten.
+Mettre l’huile d’olive dans une casserole et chauffer à feu moyen. Faire revenir les oignons et l’ail pendant environ 2 minutes.  
 
-### Reis anbraten
+### Faire revenir le riz  
 
-Jetzt den Reis hinzugeben und für ca. 15 Minuten bei niedriger Hitze (Stufe 3-4)
-anbraten.
+Ajouter le riz dans la casserole et le faire revenir à feu doux (niveau 3-4) pendant environ 15 minutes.  
 
-### Zutaten hinzugeben
+### Ajouter les autres ingrédients  
 
-Nun alle Zutaten außer die pürierten Tomaten und die Gemüsebrühe ebenfalls in
-den Topf geben und etwa 3 Minuten mitbraten.
+Ajouter ensuite tous les ingrédients, sauf la purée de tomates et le bouillon de légumes, dans la casserole et les faire revenir pendant environ 3 minutes.  
 
-### Reis kochen
+### Cuire le riz  
 
-Nun die pürierten Tomaten und die Gemüsebrühe in den Topf füllen, kurz aufkochen
-und dann für ca. 15 Minuten bei niedriger Hitze köcheln lassen, bis der Reis
-fertig ist und die gesamte Flüssigkeit verdampft.
+Ajouter la purée de tomates et le bouillon de légumes dans la casserole. Porter à ébullition, puis laisser mijoter à feu doux pendant environ 15 minutes, jusqu’à ce que le riz soit cuit et que tout le liquide ait été absorbé.  
 
-### Reis ruhen lassen
+### Laisser reposer  
 
-Den Topf vom Herd nehmen und den Reis für ca. 4 Minuten ruhen lassen und ggf.
-mit einer Gabel auflockern.
+Retirer la casserole du feu et laisser reposer le riz pendant environ 4 minutes. Égrainer le riz avec une fourchette si nécessaire.  

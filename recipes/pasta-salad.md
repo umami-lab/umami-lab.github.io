@@ -1,4 +1,4 @@
-# Nudelsalat
+# Salade de pâtes
 
 ![](/images/pasta-salad.jpg)
 

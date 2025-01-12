@@ -1,44 +1,46 @@
-# Nachos
+# Nachos  
 
-![](/images/nachos.jpg)
+![](/images/nachos.jpg)  
 
-## Zutaten
+## Ingrédients  
 
-### Für 3 Portionen
+### Pour 3 portions  
 
-- **350g** Rinderhackfleisch
-- **1** Zwiebel
-- **1** Dose Kidneybohnen
-- **250g** passierte Tomaten
-- **1/2** Teelöffel
-- **1** Teelöffel Pfeffer
-- **1/4** Teelöffel Kreuzkümmel
-- **1** Teelöffel Chillipulver
-- **300g** Tortillachips (gesalzen)
-- **3** Tomaten
-- **4** Esslöffel Olivenscheiben
-- **1** Packung geriebener Käse (Gouda oder Mozzarella)
+- **350 g** de viande de bœuf hachée  
+- **1** oignon  
+- **1 boîte** de haricots rouges  
+- **250 g** de coulis de tomates  
+- **1/2** cuillère à café de sel  
+- **1** cuillère à café de poivre  
+- **1/4** cuillère à café de cumin  
+- **1** cuillère à café de poudre de piment  
+- **300 g** de chips tortilla (salées)  
+- **3** tomates  
+- **4 cuillères à soupe** d'olives en tranches  
+- **1 paquet** de fromage râpé (Gouda ou Mozzarella)  
 
-## Zubereitung
+## Préparation  
 
-### Vorbereitung
+### Préparation des ingrédients  
 
-- Zwiebeln klein schneiden
-- Tomaten würfeln (nicht zu klein)
-- Kidneybohnen in Sieb füllen und abtropfen lassen
-- Tortillachips in eine (backofentaugliche) Schale füllen
+- Couper l'oignon en petits morceaux.  
+- Couper les tomates en dés (pas trop petits).  
+- Égoutter les haricots rouges dans une passoire.  
+- Répartir les chips tortilla dans un plat adapté au four.  
 
-### Fleischmasse zubereiten
+### Préparer la viande  
 
-Das Rindfleisch anbraten. Wenn das Hackfleisch anfängt braun zu werden, Zwiebel
-hinzugeben. Wenn die Zwiebeln glasig sind, die passierten Tomaten und die 
-Kidneybohnen hinzugeben. Die Fleischmasse mit Salz, Pfeffer, Kreuzkümmel und
-dem Chillipulver würzen und noch kurz weiter braten lassen.
+- Faire revenir la viande hachée dans une poêle.  
+- Lorsque la viande commence à brunir, ajouter l'oignon.  
+- Une fois que les oignons deviennent translucides, ajouter le coulis de tomates et les haricots rouges.  
+- Assaisonner avec le sel, le poivre, le cumin et la poudre de piment. Faire cuire encore un peu.  
 
-### Alles kombinieren
+### Assembler les nachos  
 
-Die Fleischmasse gleichmäßig auf den Tortillachips verteilen. Dann Tomaten und
-Olivenscheiben ebenfalls darauf verteilen. Abschließend mit Käse bestreuen.
+- Répartir la préparation de viande uniformément sur les chips tortilla.  
+- Ajouter les dés de tomates et les tranches d'olives par-dessus.  
+- Saupoudrer généreusement de fromage râpé.  
 
-Bei 200°C Ober-/Unterhitze in den Ofen und ca. 10 Minuten drin lassen, bis der
-Käse schön zerschmolzen ist.
+### Cuisson  
+
+- Cuire au four à 200 °C (chaleur haut/bas) pendant environ 10 minutes, jusqu'à ce que le fromage soit bien fondu.  

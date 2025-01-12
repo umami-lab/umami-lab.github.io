@@ -1,62 +1,45 @@
-# Geröstete Kartoffeln
+# Pommes de Terre Rôties
 
 ![](/images/roast-potatoes.jpg)
 
-## Zutaten
+## Ingrédients  
 
-- **2kg** Kartoffeln (überwiegend festkochend)
-- **60ml** Olivenöl
-- **4 Stengel** frischer Rosmarin
-- **6 Zehen** Knoblauch
-- Pfeffer und Salz
-- **1 Packung** Natron
+- **2 kg** de pommes de terre (à chair ferme)  
+- **60 ml** d'huile d'olive  
+- **4 branches** de romarin frais  
+- **6 gousses** d'ail  
+- Sel et poivre  
+- **1 sachet** de bicarbonate de soude  
 
-## Zubereitung
+## Préparation  
 
-### Vorbereitung
+### Préparation  
 
-- Kartoffeln schälen und in gleich große Stücke schneiden (bei mittelgroßen
-Kartoffeln vierteln).
-- Den Rosmarin klein schneiden und in eine kleine Schüssel geben. Den Knoblauch
-schälen und mit einer Knoblauchpresse in die gleiche Schüssel wie den Rosmarin
-pressen.
-- Einen großen Topf mit Wasser füllen (ca. 2L), das Wasser kräftig salzen (ca.
-  25g Salz) und eine Packung Natron dazu geben. Das Wasser zum Kochen bringen.
-- Eine Pfanne mit dem Olivenöl auf mittlere Hitze erhitzen.
-- Den Ofen auf 200°C Umluft vorheizen.
+- Éplucher les pommes de terre et les couper en morceaux de taille égale (en quartiers pour des pommes de terre moyennes).  
+- Hacher le romarin et le placer dans un petit bol. Écraser les gousses d'ail avec un presse-ail et les ajouter au romarin.  
+- Remplir une grande casserole d'eau (environ 2 L), saler généreusement (environ 25 g de sel) et ajouter le bicarbonate de soude. Porter l'eau à ébullition.  
+- Faire chauffer l'huile d'olive dans une poêle à feu moyen.  
+- Préchauffer le four à 200 °C en mode chaleur tournante.  
 
-### Karotoffeln kochen
+### Cuisson des pommes de terre  
 
-Die Kartoffelstückchen in den Topf mit kochendem Wasser geben und ca. 10 Minuten
-kochen bis sie so weich sind, dass sie sich leicht mit einem Messer
-durchschneiden lassen.
+Plonger les morceaux de pommes de terre dans l'eau bouillante et les cuire environ 10 minutes, jusqu'à ce qu'ils soient suffisamment tendres pour être facilement coupés avec un couteau.  
 
-### Rosmarin und Knoblauch anbraten
+### Faire revenir le romarin et l'ail  
 
-Während die Kartoffelstücke noch kochen, die Rosmarin und Knoblauch in die
-Pfanne mit dem Olivenöl geben. Sobald der Knoblauch anfängt braun zu werden
-(ca. 2-3 Minuten), das Olivenöl mit dem Knoblauch und Rosmarin durch einen Sieb
-in eine kleine Schüssel füllen.
+Pendant que les pommes de terre cuisent, ajouter le romarin et l'ail dans la poêle avec l'huile d'olive. Lorsque l'ail commence à dorer (après 2-3 minutes environ), filtrer l'huile avec une passoire fine dans un petit bol pour récupérer l'huile infusée.  
 
-### Kartoffeln rösten
+### Rôtir les pommes de terre  
 
-Das Wasser wegschütten und die Kartoffelstüche ca. 30 Sekunden im Topf ausdamfen
-lassen. Anschließend das Öl (ohne Knoblauch und Rosmarin) dazugeben, mit Salz
-und Pfeffer würzen und durchschütteln. Die Kartoffeln können dabei ruhig etwas
-"matschig" an den Rändern werden. Anschließend die Kartoffeln auf ein Backblech
-geben un in den Ofen schieben. Nach 20 Minuten einmal wenden und anschließend
-für weitere ca. 30 Minuten im Ofen lassen (bis sie schön braun sind).
+Égoutter les pommes de terre et les laisser évaporer leur humidité dans la casserole pendant environ 30 secondes. Ajouter ensuite l'huile infusée (sans l'ail et le romarin), saler, poivrer et secouer la casserole pour bien enrober les pommes de terre. Les bords peuvent devenir légèrement écrasés, ce qui est parfait pour obtenir plus de croustillant. Étaler les pommes de terre sur une plaque de cuisson et les enfourner. Après 20 minutes, les retourner et poursuivre la cuisson encore 30 minutes, ou jusqu'à ce qu'elles soient bien dorées.  
 
-### Kartoffeln würzen
+### Assaisonner les pommes de terre  
 
-Die Kartoffeln aus den Ofen holen und wieder in eine Schüssel füllen. Nun mit
-dem Knoblauch und Rosmarin verschmischen und anschließend servieren.
+Sortir les pommes de terre du four et les placer dans un saladier. Mélanger avec le romarin et l'ail réservés, puis servir immédiatement.  
 
-### Anmerkungen
+### Remarques  
 
-- Das Natron spaltet die Pektine in den Kartoffeln und sorgt dadurch für eine
-  größere Oberfläche.
-- Der Knoblauch und der Rosmarin werden erst nach dem Rösten im Ofen zu den
-  Kartoffeln geben, da sie sonst verbrennen würden.
+- Le bicarbonate de soude décompose les pectines des pommes de terre, augmentant ainsi leur surface pour un meilleur croustillant.  
+- Le romarin et l'ail sont ajoutés après la cuisson au four pour éviter qu'ils ne brûlent.  
 
-*Original-Rezept: [The Food Lab: How to Roast the Best Potatoes of Your Life](https://youtu.be/argKpeiKFfo)*
+*Recette originale : [The Food Lab: How to Roast the Best Potatoes of Your Life](https://youtu.be/argKpeiKFfo)*  
