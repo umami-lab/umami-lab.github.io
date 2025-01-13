@@ -1,7 +1,12 @@
-# Smash Burger
+---
+title: 'SmashBurger'
+draft: false
+tags: ['usa', 'sandwich', 'boeuf', 'plat']
+---
 
-![](/images/smashed-burger.jpg)
+![](smashburger.jpg)
 
+<!-- section -->
 ## Ingrédients  
 
 ### Pour 4 burgers  
@@ -22,6 +27,7 @@
 - **2 cuillères à café** de sauce chili  
 - **1 cuillère à soupe** de moutarde  
 
+<!-- section -->
 ## Préparation  
 
 ### Préparation  
@@ -48,16 +54,3 @@ Augmenter la chaleur de la poêle et y déposer les boulettes de viande (sans hu
 Étaler un peu de sauce sur la base du pain. Ajouter la laitue, deux tranches de tomate, puis le double steak avec le cheddar fondu. Placer le chapeau du pain pour fermer le burger. Positionner les légumes sous la viande pour plus de stabilité et une meilleure prise en main.  
 
 *Recette originale : [Better Than Fast Food! Classic Smash Burger Recipe](https://youtu.be/foD42-73wdI)*  
-
-## Images  
-
-![](/images/smashed-burger-1.jpg)  
-![](/images/smashed-burger-2.jpg)  
-![](/images/smashed-burger-3.jpg)  
-![](/images/smashed-burger-4.jpg)  
-![](/images/smashed-burger-5.jpg)  
-![](/images/smashed-burger-6.jpg)  
-![](/images/smashed-burger-7.jpg)  
-![](/images/smashed-burger-8.jpg)  
-![](/images/smashed-burger-9.jpg)  
-![](/images/smashed-burger.jpg)  

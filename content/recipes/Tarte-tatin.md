@@ -2,9 +2,9 @@
 
 ![](/images/tarte-tatin.jpg)
 
-## Ingrédients (4 personnes)
+## Ingrédients
 
-### Pour les pommes
+### Pour 4 personnes
 
 - **4** pommes golden
 - **50 g** de sucre en poudre
@@ -19,7 +19,7 @@
 - **2** pincées de sel
 - **75 g** de beurre mou
 
-## Etapes
+## Préparation
 
 ### Préparation des pommes
 

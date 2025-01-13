@@ -1,7 +1,7 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
 
-  {{- $sectionDelimiter := "<!-- section break -->" -}}
+  {{- $sectionDelimiter := "<!-- section -->" -}}
   {{- $rawContentSections := split .RawContent $sectionDelimiter -}}
   {{- if gt (len $rawContentSections) 1 -}}
     <div id="ingredients-container">
