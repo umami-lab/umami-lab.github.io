@@ -1,4 +1,7 @@
-# Ragù bolognese
+---
+title: 'Ragù Bolognese'
+draft: false
+---
 
 ## Ingredients
 - ingredient
