@@ -1,7 +1,7 @@
 ---
 title: 'Gaspatcho'
 draft: false
-tags: ['espagnol', 'soupes', 'tomates', 'plat']
+tags: ['espagnol', 'soupe', 'tomates', 'plat']
 ---
 ![](../images/tomatosoup.jpg)
 
