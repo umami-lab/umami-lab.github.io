@@ -1,7 +1,7 @@
 ---
-title: 'Arroz Rojo / Riz Mexicain  '
+title: 'Gaspatcho'
 draft: false
-tags: ['mexicain', 'riz', 'tomates', 'plat']
+tags: ['espagnol', 'soupes', 'tomates', 'plat']
 ---
 ![](../images/tomatosoup.jpg)
 
