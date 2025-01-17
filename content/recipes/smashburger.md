@@ -4,7 +4,7 @@ draft: false
 tags: ['usa', 'sandwich', 'boeuf', 'plat']
 ---
 
-![](content/images/smashburger.jpg)
+![](../images/smashburger.jpg)
 
 <!-- section -->
 ## Ingrédients  

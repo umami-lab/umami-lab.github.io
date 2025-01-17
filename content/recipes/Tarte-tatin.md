@@ -3,7 +3,7 @@ title: 'Tarte-tatin'
 draft: false
 tags: ['français', 'tarte', 'pommes', 'dessert']
 ---
-![](content/images/tarte-tatin.jpg)
+![](../images/tarte-tatin.jpg)
 
 <!-- section -->
 ## Ingrédients

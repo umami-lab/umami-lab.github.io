@@ -3,7 +3,7 @@ title: 'Arroz Rojo / Riz Mexicain  '
 draft: false
 tags: ['mexicain', 'riz', 'tomates', 'plat']
 ---
-![](content/images/tomatosoup.jpg)
+![](../images/tomatosoup.jpg)
 
 <!-- section -->
 ## Ingrédients (4 personnes)

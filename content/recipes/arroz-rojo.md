@@ -3,7 +3,7 @@ title: 'Arroz Rojo / Riz Mexicain  '
 draft: false
 tags: ['mexicain', 'riz', 'tomates', 'plat']
 ---
-![](content/images/arroz-rojo.jpg)
+![](../images/arroz-rojo.jpg)
 
 <!-- section -->
 ## Ingrédients
