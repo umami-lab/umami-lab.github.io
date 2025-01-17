@@ -1,6 +1,11 @@
-# Gaspacho
-![](/images/tomatosoup.jpg)
+---
+title: 'Arroz Rojo / Riz Mexicain  '
+draft: false
+tags: ['mexicain', 'riz', 'tomates', 'plat']
+---
+![](content/images/tomatosoup.jpg)
 
+<!-- section -->
 ## Ingrédients (4 personnes)
 
 ### Légumes
@@ -19,6 +24,7 @@
 - **10 g** de sel fin
 - **2 g** de poivre
 
+<!-- section -->
 ## Étapes
 
 ### Préparation de la soupe
@@ -36,6 +42,7 @@
 1. Juste avant de servir, ajoutez un filet d'huile d'olive et des feuilles de basilic en guise de décoration.
 2. Pour une version plus liquide, ajoutez des croûtons de pain.
 
+<!-- section -->
 ## Commentaires
 
 - Si vous souhaitez gagner du temps, vous pouvez retirer la peau des tomates en les passant à l'eau bouillante.

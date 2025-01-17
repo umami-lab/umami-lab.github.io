@@ -1,10 +1,12 @@
+---
+title: 'Arroz Rojo / Riz Mexicain  '
+draft: false
+tags: ['mexicain', 'riz', 'tomates', 'plat']
+---
+![](content/images/arroz-rojo.jpg)
 
-# Arroz Rojo / Riz Mexicain  
-
-![](/images/arroz-rojo.jpg)  
-
-## Ingrédients  
-
+<!-- section -->
+## Ingrédients
 ### Pour 2 portions  
 
 - **200 g** de riz long  
@@ -22,6 +24,7 @@
 - **1/2 cuillère à café** de cumin  
 - **1 cuillère à café** de poudre de piment  
 
+<!-- section -->
 ## Préparation  
 
 ### Préparer le riz  

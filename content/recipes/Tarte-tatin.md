@@ -1,7 +1,11 @@
-# Tarte tatin
+---
+title: 'Tarte-tatin'
+draft: false
+tags: ['français', 'tarte', 'pommes', 'dessert']
+---
+![](content/images/tarte-tatin.jpg)
 
-![](/images/tarte-tatin.jpg)
-
+<!-- section -->
 ## Ingrédients
 
 ### Pour 4 personnes
@@ -19,6 +23,7 @@
 - **2** pincées de sel
 - **75 g** de beurre mou
 
+<!-- section -->
 ## Préparation
 
 ### Préparation des pommes
@@ -35,4 +40,5 @@ Mélangez les ingrédients jusqu'à obtenir une pâte homogène. Étalez la pât
 
 Une fois que le jus des pommes forme un sirop épais, ajoutez la pâte par-dessus, puis piquez la pâte à plusieurs endroits avec la pointe d'un couteau. Mettez la tarte au four pour une quinzaine de minutes.
 
+<!-- section -->
 ## Photos
