@@ -3,13 +3,25 @@
 
   {{- $sectionDelimiter := "<!-- section -->" -}}
   {{- $rawContentSections := split .RawContent $sectionDelimiter -}}
-  {{- if gt (len $rawContentSections) 1 -}}
+  {{- $sectionCount := len $rawContentSections -}}
+
+  {{- if gt $sectionCount 1 -}}
     <div id="ingredients-container">
       {{ index $rawContentSections 0 | .RenderString }}
     </div>
-    <div id="section-2">
-      {{ index $rawContentSections 1 | .RenderString }}
-    </div>
+
+    {{- if ge $sectionCount 2 -}}
+      <div id="section-2">
+        {{ index $rawContentSections 1 | .RenderString }}
+      </div>
+    {{- end -}}
+
+    {{- if ge $sectionCount 3 -}}
+      <div id="section-3">
+        {{ index $rawContentSections 2 | .RenderString }}
+      </div>
+    {{- end -}}
+
   {{- else -}}
     <div id="content-not-split-into-sections">
       {{ .Content }}
