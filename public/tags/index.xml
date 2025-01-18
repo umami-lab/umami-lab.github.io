@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Umami-lab</title>
+    <link>http://localhost:1313/umami-lab/tags/</link>
+    <description>Recent content in Tags on Umami-lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/umami-lab/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boeuf</title>
+      <link>http://localhost:1313/umami-lab/tags/boeuf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/boeuf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dessert</title>
+      <link>http://localhost:1313/umami-lab/tags/dessert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/dessert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Espagnol</title>
+      <link>http://localhost:1313/umami-lab/tags/espagnol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/espagnol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Français</title>
+      <link>http://localhost:1313/umami-lab/tags/fran%C3%A7ais/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/fran%C3%A7ais/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Italien</title>
+      <link>http://localhost:1313/umami-lab/tags/italien/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/italien/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mexicain</title>
+      <link>http://localhost:1313/umami-lab/tags/mexicain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/mexicain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pates</title>
+      <link>http://localhost:1313/umami-lab/tags/pates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/pates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plat</title>
+      <link>http://localhost:1313/umami-lab/tags/plat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/plat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pommes</title>
+      <link>http://localhost:1313/umami-lab/tags/pommes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/pommes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Riz</title>
+      <link>http://localhost:1313/umami-lab/tags/riz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/riz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sandwich</title>
+      <link>http://localhost:1313/umami-lab/tags/sandwich/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/sandwich/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Soupe</title>
+      <link>http://localhost:1313/umami-lab/tags/soupe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/soupe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tarte</title>
+      <link>http://localhost:1313/umami-lab/tags/tarte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/tarte/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tomates</title>
+      <link>http://localhost:1313/umami-lab/tags/tomates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/tomates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Usa</title>
+      <link>http://localhost:1313/umami-lab/tags/usa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/tags/usa/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

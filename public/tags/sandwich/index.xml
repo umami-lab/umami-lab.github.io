@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sandwich on Umami-lab</title>
+    <link>http://localhost:1313/umami-lab/tags/sandwich/</link>
+    <description>Recent content in Sandwich on Umami-lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/umami-lab/tags/sandwich/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SmashBurger</title>
+      <link>http://localhost:1313/umami-lab/smashburger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab/smashburger/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../images/smashburger.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;ingrédients&#34;&gt;Ingrédients&lt;/h2&gt;&#xA;&lt;h3 id=&#34;pour-4-burgers&#34;&gt;Pour 4 burgers&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; pains à burger&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;680 g&lt;/strong&gt; de viande hachée de bœuf&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;8&lt;/strong&gt; tranches de cheddar&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; tomate&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;4 cuillères à soupe&lt;/strong&gt; de beurre clarifié&lt;/li&gt;&#xA;&lt;li&gt;Sel&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1/4&lt;/strong&gt; de laitue iceberg&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;pour-la-sauce&#34;&gt;Pour la sauce&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;120 ml&lt;/strong&gt; de mayonnaise&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1/2&lt;/strong&gt; oignon&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1 cuillère à café&lt;/strong&gt; de sauce Worcestershire&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;2 cuillères à café&lt;/strong&gt; de sauce chili&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1 cuillère à soupe&lt;/strong&gt; de moutarde&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;préparation&#34;&gt;Préparation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;préparation-1&#34;&gt;Préparation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Diviser la viande hachée en 8 parts égales (environ 85 g chacune) et former des boulettes rondes. Placer les boulettes au réfrigérateur.&lt;/li&gt;&#xA;&lt;li&gt;Émincer finement la laitue iceberg.&lt;/li&gt;&#xA;&lt;li&gt;Couper la tomate en 8 tranches fines (&lt;em&gt;Astuce : couper en gardant le pédoncule sur le côté&lt;/em&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Râper ou hacher l’oignon le plus finement possible.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;sauce&#34;&gt;Sauce&lt;/h3&gt;&#xA;&lt;p&gt;Mélanger l’oignon râpé avec tous les autres ingrédients pour la sauce jusqu’à obtenir une consistance homogène.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
