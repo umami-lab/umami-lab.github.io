@@ -79,7 +79,6 @@
         float: right;
         padding: 0px 24px 16px;
         margin: 4px 0 16px 16px;
-
         border-radius: 8px;
     }
 
@@ -96,4 +95,38 @@
         grid-template-columns: 50% 50%;
         gap: 12px;
     }
+}
+
+/* Style de la barre de recherche */
+#search-container {
+    margin: 20px 0;
+    padding: 8px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#searchResults {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#searchResults li {
+    margin: 5px 0;
+}
+
+#searchResults li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#searchResults li a:hover {
+    text-decoration: underline;
 }
