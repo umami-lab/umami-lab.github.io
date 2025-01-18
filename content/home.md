@@ -16,7 +16,7 @@ draft: false
 <script>
     document.getElementById('searchInput').addEventListener('keyup', function() {
         var query = this.value.toLowerCase();
-        fetch('/search.json')
+        fetch('../search.json')
             .then(response => response.json())
             .then(pages => {
                 var results = pages.filter(page => page.title.toLowerCase().includes(query) || page.content.toLowerCase().includes(query));
