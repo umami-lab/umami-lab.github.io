@@ -1,5 +1,5 @@
 ---
-title: 'Gaspatcho'
+title: 'Gaspacho'
 draft: false
 tags: ['espagnol', 'soupe', 'tomates', 'plat']
 ---
