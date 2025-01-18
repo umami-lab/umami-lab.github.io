@@ -6,7 +6,6 @@ tags: ['français', 'tarte', 'pommes', 'dessert']
 
 ![](../images/tarte-tatin.jpg)
 
-<!-- section -->
 ## Ingrédients
 
 ### Pour 4 personnes
