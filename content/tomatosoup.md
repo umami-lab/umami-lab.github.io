@@ -3,7 +3,7 @@ title: 'Gaspatcho'
 draft: false
 tags: ['espagnol', 'soupe', 'tomates', 'plat']
 ---
-![](../images/tomatosoup.jpg)
+![](../images/gaspacho.jpg)
 
 <!-- section -->
 ## Ingrédients (4 personnes)
