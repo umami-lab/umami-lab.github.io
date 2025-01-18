@@ -1,4 +1,4 @@
-baseURL = 'https://umami-lab.github.io/'
+baseURL = 'https://umami-lab.github.io/umami-lab'
 languageCode = 'en-us'
 title = 'Umami-lab'
 
