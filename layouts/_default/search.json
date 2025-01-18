@@ -1,0 +1,11 @@
+{{- $entries := where .Site.Pages "Section" "content" }}
+[
+{{- range $index, $page := $entries }}
+  {{- if $index }},{{- end }}
+  {
+    "title": {{ $page.Title | jsonify }},
+    "link": {{ $page.Permalink | jsonify }},
+    "content": {{ $page.Plain | jsonify }}
+  }
+{{- end }}
+]
