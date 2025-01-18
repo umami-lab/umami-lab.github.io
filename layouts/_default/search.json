@@ -1,4 +1,4 @@
-{{- $entries := where .Site.Pages "Section" "recipes" }}
+{{- $entries := where .Site.Pages "Section"}}
 [
 {{- range $index, $page := $entries }}
   {{- if $index }},{{- end }}
