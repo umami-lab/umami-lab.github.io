@@ -4,7 +4,7 @@ draft: false
 tags: ['chinois', 'pain', 'nature', 'plat']
 ---
 
-![](../images/mantou.jpg)
+![](../images/mantou.jpeg)
 
 ## Ingrédients
 
