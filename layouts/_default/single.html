@@ -21,13 +21,13 @@
     <div id="section-2">
       {{ index $rawContentSections 2 | .RenderString }}
     </div>
-  {{- end -}}
+  {{- end -}} <!-- Fermeture du if pour la section 2 -->
 
   {{- if ge $sectionCount 4 -}}
     <div id="section-3">
       {{ index $rawContentSections 3 | .RenderString }}
     </div>
-  {{- end -}}
+  {{- end -}} <!-- Fermeture du if pour la section 3 -->
 
   {{- else -}}
     <div id="content-not-split-into-sections">
