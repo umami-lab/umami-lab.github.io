@@ -6,19 +6,24 @@
   {{- $sectionCount := len $rawContentSections -}}
 
   {{- if gt $sectionCount 1 -}}
-    <div id="ingredients-container" style="background-color: #f8f8f8; padding: 16px; border: 1px solid #ddd; border-radius: 8px;">
+    <div id="image">
         {{ index $rawContentSections 0 | .RenderString }}
       </div>
 
-    {{- if ge $sectionCount 2 -}}
-      <div id="section-2">
+  {{- if ge $sectionCount 2 -}}
+    <div id="ingredients-container" style="background-color: #f8f8f8; padding: 16px; border: 1px solid #ddd; border-radius: 8px;">
         {{ index $rawContentSections 1 | .RenderString }}
+      </div>
+
+    {{- if ge $sectionCount 3 -}}
+      <div id="section-2">
+        {{ index $rawContentSections 2 | .RenderString }}
       </div>
     {{- end -}}
 
-    {{- if ge $sectionCount 3 -}}
+    {{- if ge $sectionCount 4 -}}
       <div id="section-3">
-        {{ index $rawContentSections 2 | .RenderString }}
+        {{ index $rawContentSections 3 | .RenderString }}
       </div>
     {{- end -}}
 
