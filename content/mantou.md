@@ -6,6 +6,8 @@ tags: ['chinois', 'pain', 'nature', 'plat']
 
 ![](../images/mantou.jpeg)
 
+<!-- section -->
+
 ## Ingrédients
 
 ### Pour 6 mantou

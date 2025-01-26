@@ -6,6 +6,8 @@ tags: ['chinois', 'bao', 'farci', 'plat']
 
 ![](../images/mantou.jpeg)
 
+<!-- section -->
+
 ## Ingrédients
 
 ### Pour 6 baozi
