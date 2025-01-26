@@ -97,6 +97,48 @@
     }
 }
 
+/* Nouveau : Mise en page côte à côte pour la recette */
+#recipe-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Image à gauche */
+#recipe-image {
+    flex: 1;
+    max-width: 300px; /* Largeur fixe pour limiter l'image */
+    flex-shrink: 0;
+}
+
+#recipe-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Ingrédients à droite */
+#ingredients-container {
+    flex: 2;
+    background-color: #f8f8f8;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Nouveau : Empilement en mobile */
+@media (max-width: 600px) {
+    #recipe-layout {
+        flex-direction: column;
+    }
+
+    #recipe-image,
+    #ingredients-container {
+        width: 100%; /* Pleine largeur en mobile */
+    }
+}
+
 /* Style de la barre de recherche */
 #search-container {
     margin: 30px 0;
