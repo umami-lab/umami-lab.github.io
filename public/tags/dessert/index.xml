@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dessert on Umami-lab</title>
-    <link>http://localhost:1313/umami-lab/tags/dessert/</link>
+    <link>http://localhost:1313/umami-lab.github.io/tags/dessert/</link>
     <description>Recent content in Dessert on Umami-lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/umami-lab/tags/dessert/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/umami-lab.github.io/tags/dessert/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tarte-tatin</title>
-      <link>http://localhost:1313/umami-lab/tarte-tatin/</link>
+      <link>http://localhost:1313/umami-lab.github.io/tarte-tatin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/umami-lab/tarte-tatin/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../images/tarte-tatin.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;ingrédients&#34;&gt;Ingrédients&lt;/h2&gt;&#xA;&lt;h3 id=&#34;pour-4-personnes&#34;&gt;Pour 4 personnes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; pommes golden&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;50 g&lt;/strong&gt; de sucre en poudre&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;5 cl&lt;/strong&gt; d&amp;rsquo;eau&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;50 g&lt;/strong&gt; de beurre mou&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;pour-la-pâte-brisée&#34;&gt;Pour la pâte brisée&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;150 g&lt;/strong&gt; de farine&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; jaune d&amp;rsquo;œuf&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;3 cl&lt;/strong&gt; d&amp;rsquo;eau&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;2&lt;/strong&gt; pincées de sel&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;75 g&lt;/strong&gt; de beurre mou&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;préparation&#34;&gt;Préparation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;préparation-des-pommes&#34;&gt;Préparation des pommes&lt;/h3&gt;&#xA;&lt;p&gt;Préchauffez le four à 180 degrés. Mettez l&amp;rsquo;eau et le sucre dans une casserole. Lors de la caramélisation, ajoutez le beurre, baissez le feu et mélangez.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/umami-lab.github.io/tarte-tatin/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../images/tarte-tatin.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;ingrédients&#34;&gt;Ingrédients&lt;/h2&gt;&#xA;&lt;h3 id=&#34;pour-4-personnes&#34;&gt;Pour 4 personnes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; pommes golden&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;50 g&lt;/strong&gt; de sucre en poudre&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;5 cl&lt;/strong&gt; d&amp;rsquo;eau&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;50 g&lt;/strong&gt; de beurre mou&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;pour-la-pâte-brisée&#34;&gt;Pour la pâte brisée&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;150 g&lt;/strong&gt; de farine&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; jaune d&amp;rsquo;œuf&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;3 cl&lt;/strong&gt; d&amp;rsquo;eau&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;2&lt;/strong&gt; pincées de sel&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;75 g&lt;/strong&gt; de beurre mou&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;préparation&#34;&gt;Préparation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;préparation-des-pommes&#34;&gt;Préparation des pommes&lt;/h3&gt;&#xA;&lt;p&gt;Préchauffez le four à 180 degrés. Mettez l&amp;rsquo;eau et le sucre dans une casserole. Lors de la caramélisation, ajoutez le beurre, baissez le feu et mélangez.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

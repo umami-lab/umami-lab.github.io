@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pain on Umami-lab</title>
+    <link>http://localhost:1313/umami-lab.github.io/tags/pain/</link>
+    <description>Recent content in Pain on Umami-lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/umami-lab.github.io/tags/pain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mantou (馒头) / Pain chinois</title>
+      <link>http://localhost:1313/umami-lab.github.io/mantou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/mantou/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../images/mantou.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;ingrédients&#34;&gt;Ingrédients&lt;/h2&gt;&#xA;&lt;h3 id=&#34;pour-6-mantou&#34;&gt;Pour 6 mantou&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;250 g&lt;/strong&gt; de farine&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1 cuillère à soupe&lt;/strong&gt; de sucre&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;130 ml&lt;/strong&gt; d&amp;rsquo;eau&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;5 g&lt;/strong&gt; de levure boulanger sèche ou fraiche&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;préparation&#34;&gt;Préparation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;préparation-de-la-pâte&#34;&gt;Préparation de la pâte&lt;/h3&gt;&#xA;&lt;p&gt;Mélangez la levure avec un peu d’eau tiède (35-40°C). En dessous de cette température, la levure ne s’active pas, et au-dessus, elle meurt. Ajoutez une pincée de sucre pour stimuler l’activation. Laissez reposer 10 à 15 minutes. Vérifiez que des bulles se forment pour confirmer que la levure est active.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

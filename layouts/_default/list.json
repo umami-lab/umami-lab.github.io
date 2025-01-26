@@ -1,0 +1,10 @@
+{{- /* Génère search.json */ -}}
+[
+{{- range .Pages -}}
+    {
+        "title": {{ .Title | jsonify }},
+        "content": {{ .Plain | jsonify }},
+        "link": {{ .Permalink | jsonify }}
+    }{{ if not (last .) }},{{ end }}
+{{- end -}}
+]

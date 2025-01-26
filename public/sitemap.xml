@@ -2,50 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/umami-lab/arroz-rojo/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/arroz-rojo/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/boeuf/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/bao/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/categories/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/baozi/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/dessert/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/boeuf/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/espagnol/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/fran%C3%A7ais/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/chinois/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tomatosoup/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/dessert/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/italien/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/espagnol/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/mexicain/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/farci/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/pates/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/fran%C3%A7ais/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/plat/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tomatosoup/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/pommes/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/home/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/bolognese/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/italien/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/riz/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/mantou/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/sandwich/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/mexicain/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/smashburger/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/nature/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/soupe/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/pain/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/pates/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/tarte/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/plat/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tarte-tatin/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/pommes/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/tomates/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/bolognese/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/riz/</loc>
   </url><url>
-    <loc>http://localhost:1313/umami-lab/tags/usa/</loc>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/sandwich/</loc>
+  </url><url>
+    <loc>http://localhost:1313/umami-lab.github.io/smashburger/</loc>
+  </url><url>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/soupe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/tarte/</loc>
+  </url><url>
+    <loc>http://localhost:1313/umami-lab.github.io/tarte-tatin/</loc>
+  </url><url>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/tomates/</loc>
+  </url><url>
+    <loc>http://localhost:1313/umami-lab.github.io/</loc>
+  </url><url>
+    <loc>http://localhost:1313/umami-lab.github.io/tags/usa/</loc>
   </url>
 </urlset>
