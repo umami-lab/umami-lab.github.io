@@ -6,9 +6,9 @@
   {{- $sectionCount := len $rawContentSections -}}
 
   {{- if gt $sectionCount 1 -}}
-    <div id="ingredients-container" class="ingredients-background">
-      {{ index $rawContentSections 0 | .RenderString }}
-    </div>
+    <div id="ingredients-container" style="background-color: #f8f8f8; padding: 16px; border: 1px solid #ddd; border-radius: 8px;">
+        {{ index $rawContentSections 0 | .RenderString }}
+      </div>
 
     {{- if ge $sectionCount 2 -}}
       <div id="section-2">
