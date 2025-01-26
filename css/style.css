@@ -33,7 +33,6 @@
 }
 
 /* Sections de contenu */
-#image,
 #ingredients-container,
 #section-2,
 #section-3 {
@@ -45,7 +44,16 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#image,
+/* Section spécifique pour l'image */
+#image {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    margin-top: 0;
+    text-align: center;
+}
+
 #ingredients-container h2,
 #section-2 h2,
 #section-3 h2 {
@@ -54,7 +62,6 @@
     color: #333;
 }
 
-#image,
 #ingredients-container h2::before,
 #section-2 h2::before,
 #section-3 h2::before {
