@@ -8,24 +8,26 @@
   {{- if gt $sectionCount 1 -}}
     <div id="image">
         {{ index $rawContentSections 0 | .RenderString }}
-      </div>
+    </div>
+  {{- end -}} <!-- Fermeture du premier if pour l'image -->
 
   {{- if ge $sectionCount 2 -}}
     <div id="ingredients-container" style="background-color: #f8f8f8; padding: 16px; border: 1px solid #ddd; border-radius: 8px;">
         {{ index $rawContentSections 1 | .RenderString }}
-      </div>
+    </div>
+  {{- end -}} <!-- Fermeture du if pour les ingrédients -->
 
-    {{- if ge $sectionCount 3 -}}
-      <div id="section-2">
-        {{ index $rawContentSections 2 | .RenderString }}
-      </div>
-    {{- end -}}
+  {{- if ge $sectionCount 3 -}}
+    <div id="section-2">
+      {{ index $rawContentSections 2 | .RenderString }}
+    </div>
+  {{- end -}}
 
-    {{- if ge $sectionCount 4 -}}
-      <div id="section-3">
-        {{ index $rawContentSections 3 | .RenderString }}
-      </div>
-    {{- end -}}
+  {{- if ge $sectionCount 4 -}}
+    <div id="section-3">
+      {{ index $rawContentSections 3 | .RenderString }}
+    </div>
+  {{- end -}}
 
   {{- else -}}
     <div id="content-not-split-into-sections">
