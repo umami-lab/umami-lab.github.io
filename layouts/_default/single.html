@@ -6,8 +6,16 @@
   {{- $sectionCount := len $rawContentSections -}}
 
   {{- if gt $sectionCount 1 -}}
-    <div id="ingredients-container">
-      {{ index $rawContentSections 0 | .RenderString }}
+    <div id="recipe-layout" style="display: flex; align-items: flex-start; gap: 16px;">
+      <!-- Image Section -->
+      <div id="recipe-image" style="flex: 1; max-width: 300px;">
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%; border-radius: 8px;">
+      </div>
+
+      <!-- Ingredients Section -->
+      <div id="ingredients-container" style="flex: 2; background-color: #f8f8f8; padding: 16px; border: 1px solid #ddd; border-radius: 8px;">
+        {{ index $rawContentSections 0 | .RenderString }}
+      </div>
     </div>
 
     {{- if ge $sectionCount 2 -}}
