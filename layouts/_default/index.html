@@ -9,12 +9,6 @@
               <div class="recipe-card">
                   <a href="{{ .Permalink }}">
                       <h2>{{ .Title }}</h2>
-                      <p class="tags">
-                          {{ $tags := .Params.tags }}
-                          {{ range $index, $tag := $tags }}
-                              <span>{{ $tag }}</span>{{ if lt $index (sub (len $tags) 1) }}, {{ end }}
-                          {{ end }}
-                      </p>
                   </a>
               </div>
           {{ end }}
