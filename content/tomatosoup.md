@@ -2,6 +2,7 @@
 title: 'Gaspacho'
 draft: false
 tags: ['espagnol', 'soupe', 'tomates', 'plat']
+type: recipe
 ---
 ![](../images/gaspacho.jpg)
 

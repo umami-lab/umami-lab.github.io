@@ -2,6 +2,7 @@
 title: 'Mantou (馒头) / Pain chinois'
 draft: false
 tags: ['chinois', 'pain', 'nature', 'plat']
+type: recipe
 ---
 
 ![](../images/mantou.jpeg)

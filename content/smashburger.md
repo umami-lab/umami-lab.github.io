@@ -2,6 +2,7 @@
 title: 'SmashBurger'
 draft: false
 tags: ['usa', 'sandwich', 'boeuf', 'plat']
+type: recipe
 ---
 
 ![](../images/smashburger.jpg)
