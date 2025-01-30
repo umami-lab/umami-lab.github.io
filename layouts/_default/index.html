@@ -1,82 +1,33 @@
-{{ define "main" }}
-    <!-- Bienvenue et introduction -->
-  <h1>Umami-Lab</h1>
+<div id="recipes-list">
+    {{ range .Pages }}
+        {{ if eq .Type "recipe" }}  <!-- Filtrer pour afficher uniquement les recettes -->
+            <div class="recipe-card" data-tags="{{ delimit .Params.tags "," }}">
+                <a href="{{ .Permalink }}">
+                    <h2>{{ .Title }}</h2>
+                    <!-- Les tags ne sont plus affichés ici -->
+                </a>
+            </div>
+        {{ end }}
+    {{ end }}
+</div>
 
-  <!-- Liste des recettes -->
-  <div id="recipes-list">
-      {{ range .Pages }}
-          {{ if eq .Type "recipe" }}  <!-- Filtrer pour afficher uniquement les recettes -->
-              <div class="recipe-card">
-                  <a href="{{ .Permalink }}">
-                      <h2>{{ .Title }}</h2>
-                      <!-- <p class="tags">
-                          {{ $tags := .Params.tags }}
-                          {{ range $index, $tag := $tags }}
-                              <span>{{ $tag }}</span>{{ if lt $index (sub (len $tags) 1) }}, {{ end }}
-                          {{ end }}
-                      </p> -->
-                  </a>
-              </div>
-          {{ end }}
-      {{ end }}
-  </div>
+<!-- Script de recherche -->
+<script>
+    function searchRecipes() {
+        const searchInput = document.getElementById('searchInput').value.toLowerCase();
+        const searchResults = document.getElementById('searchResults');
+        const recipes = document.querySelectorAll('.recipe-card');
+        
+        // Effacer les résultats précédents
+        searchResults.innerHTML = '';
 
-  <!-- Script de recherche -->
-  <script>
-      function searchRecipes() {
-          const searchInput = document.getElementById('searchInput').value.toLowerCase();
-          const searchResults = document.getElementById('searchResults');
-          
-          // Effacer les résultats précédents
-          searchResults.innerHTML = '';
+        recipes.forEach(recipe => {
+            const title = recipe.querySelector('h2').innerText.toLowerCase();
+            const tags = recipe.getAttribute('data-tags').toLowerCase();
 
-          // Trouver tous les fichiers de recettes (fichiers .md dans le dossier content)
-          const recipes = document.querySelectorAll('.recipe-card'); 
-
-          // Si aucun texte dans la barre de recherche
-          if (!searchInput) {
-              return;
-          }
-
-          recipes.forEach((recipe) => {
-              const title = recipe.querySelector('h2').innerText.toLowerCase();
-              const tags = recipe.querySelector('.tags').innerText.toLowerCase();
-
-              if (title.includes(searchInput) || tags.includes(searchInput)) {
-                  const li = document.createElement('li');
-                  li.innerHTML = `<a href="${recipe.querySelector('a').getAttribute('href')}">${recipe.querySelector('h2').innerText}</a>`;
-                  searchResults.appendChild(li);
-              }
-          });
-      }
-  </script>
-
-  <style>
-      #searchResults {
-          list-style: none;
-          padding: 0;
-          margin-top: 10px;
-          background-color: #fff;
-          border: 1px solid #ddd;
-          border-radius: 4px;
-          max-height: 200px;
-          overflow-y: auto;
-      }
-
-      #searchResults li {
-          padding: 8px;
-          background-color: #f9f9f9;
-          border-bottom: 1px solid #ddd;
-      }
-
-      #searchResults li a {
-          text-decoration: none;
-          color: #007BFF;
-      }
-
-      #searchResults li a:hover {
-          text-decoration: underline;
-      }
-  </style>
-
-{{ end }}
+            if (title.includes(searchInput) || tags.includes(searchInput)) {
+                searchResults.appendChild(recipe.cloneNode(true));
+            }
+        });
+    }
+</script>
