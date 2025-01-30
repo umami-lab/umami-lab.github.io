@@ -132,27 +132,63 @@
     list-style: none;
     padding: 0;
     margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
 }
 
 #searchResults li {
     padding: 8px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-bottom: 6px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
 }
 
 #searchResults li a {
     text-decoration: none;
     color: #007BFF;
-    font-weight: 500;
 }
 
 #searchResults li a:hover {
     text-decoration: underline;
 }
 
-/* Responsivité */
+/* Styles pour les recettes */
+#recipes-list {
+    margin-top: 40px;
+}
+
+.recipe-card {
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.recipe-card .tags {
+    margin-top: 8px;
+    color: #777;
+    font-size: 0.875rem;
+}
+
+.recipe-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.recipe-card a:hover h2 {
+    text-decoration: underline;
+}
+
 @media (max-width: 600px) {
     #recipe-container {
         flex-direction: column; /* En mode mobile, empile les sections */
