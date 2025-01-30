@@ -1,6 +1,12 @@
 {{ define "main" }}
+  <!-- Barre de recherche -->
+  <div id="search-container">
+      <input type="text" id="searchInput" placeholder="Rechercher une recette..." oninput="searchRecipes()">
+      <ul id="searchResults"></ul>
+  </div>
+
   <!-- Bienvenue et introduction -->
-  <h1>UmamiLab</h1>
+  <h1>Bienvenue sur le site de recettes</h1>
 
   <!-- Liste des recettes -->
   <div id="recipes-list">
@@ -9,6 +15,12 @@
               <div class="recipe-card">
                   <a href="{{ .Permalink }}">
                       <h2>{{ .Title }}</h2>
+                      <p class="tags">
+                          {{ $tags := .Params.tags }}
+                          {{ range $index, $tag := $tags }}
+                              <span>{{ $tag }}</span>{{ if lt $index (sub (len $tags) 1) }}, {{ end }}
+                          {{ end }}
+                      </p>
                   </a>
               </div>
           {{ end }}
@@ -17,7 +29,6 @@
 
   <!-- Script de recherche -->
   <script>
-      // Fonction de recherche
       function searchRecipes() {
           const searchInput = document.getElementById('searchInput').value.toLowerCase();
           const searchResults = document.getElementById('searchResults');
@@ -26,7 +37,7 @@
           searchResults.innerHTML = '';
 
           // Trouver tous les fichiers de recettes (fichiers .md dans le dossier content)
-          const recipes = document.querySelectorAll('.recipe-card'); // Assume que chaque recette a la classe 'recipe-card'
+          const recipes = document.querySelectorAll('.recipe-card'); 
 
           // Si aucun texte dans la barre de recherche
           if (!searchInput) {
@@ -46,7 +57,6 @@
       }
   </script>
 
-  <!-- Style de la barre de recherche -->
   <style>
       #searchResults {
           list-style: none;
