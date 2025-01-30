@@ -1,18 +1,8 @@
-/* Généralités */
-body {
-    font-family: 'Open Sans', sans-serif; /* Police moderne et lisible */
-    background-color: #1c1c1c; /* Fond gris foncé, moins agressif que le noir */
-    color: #f1f1f1; /* Texte clair pour contraster avec le fond sombre */
-    margin: 0;
-    padding: 0;
-}
-
-/* Mise en page générale */
+/* Style général de la page */
 .container {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 40px;
-    box-sizing: border-box;
+    padding: 16px;
 }
 
 @media print {
@@ -23,49 +13,38 @@ body {
 
 /* Styles du titre */
 #title-wrapper {
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 24px;
+    margin-bottom: 16px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 #title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     margin: 0;
-    color: #fff;
-    text-transform: uppercase;
+    color: #333;
+}
+
+#description1 img, #description2 img {
+    border-radius: 8px;
+    max-width: 100%;
 }
 
 /* Sections de contenu */
 #ingredients-container,
 #section-2,
 #section-3 {
-    background-color: #2a2a2a; /* Fond légèrement plus clair que le fond principal */
-    padding: 24px;
-    margin-top: 32px;
-    border-radius: 10px;
-    border: 1px solid #444;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f5f5f5;
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#ingredients-container h2,
-#section-2 h2,
-#section-3 h2 {
-    font-size: 1.8rem;
-    color: #f1f1f1;
-    margin-bottom: 16px;
-}
-
-#ingredients-container h2::before,
-#section-2 h2::before,
-#section-3 h2::before {
-    content: "🔸 ";
-    margin-right: 12px;
-}
-
-/* Section image */
+/* Section spécifique pour l'image */
 #image {
     background-color: transparent;
     padding: 0;
@@ -75,52 +54,100 @@ body {
     text-align: center;
 }
 
-#image-container img {
-    border-radius: 12px;
-    max-width: 100%;
+#ingredients-container h2,
+#section-2 h2,
+#section-3 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+#ingredients-container h2::before,
+#section-2 h2::before,
+#section-3 h2::before {
+    content: "🔸 ";
+    margin-right: 8px;
+}
+
+/* Mise en page des sections */
+@media (min-width: 600px) {
+    #recipe-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    #ingredients-container {
+        flex: 1;
+        max-width: 45%;
+        background-color: #f0f0f0; /* Fond gris clair */
+        padding: 16px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    #image-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #image-container img {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    #section-2, #section-3 {
+        clear: both;
+    }
+
+    #image-container p img {
+        max-width: calc(50% - 8px);
+        border-radius: 8px;
+    }
 }
 
 /* Style de la barre de recherche */
 #search-container {
-    margin: 40px 0;
-    padding: 20px;
-    background-color: #2a2a2a;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px 0;
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #searchInput {
     width: 100%;
-    padding: 16px;
-    font-size: 18px;
+    padding: 14px;
+    font-size: 16px;
     border-radius: 8px;
-    border: 1px solid #444;
-    background-color: #333;
-    color: #fff;
-    margin-bottom: 16px;
+    border: 1px solid #ddd;
     box-sizing: border-box;
+    background-color: #fff;
+    margin-bottom: 12px;
 }
 
 #searchResults {
     list-style: none;
     padding: 0;
     margin-top: 10px;
-    background-color: #333;
-    border: 1px solid #444;
-    border-radius: 8px;
-    max-height: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-height: 200px;
     overflow-y: auto;
 }
 
 #searchResults li {
-    padding: 10px;
-    background-color: #444;
-    border-bottom: 1px solid #555;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
 }
 
 #searchResults li a {
     text-decoration: none;
-    color: #66aaff; /* Une couleur claire qui ressort */
+    color: #007BFF;
 }
 
 #searchResults li a:hover {
@@ -129,29 +156,28 @@ body {
 
 /* Styles pour les recettes */
 #recipes-list {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .recipe-card {
-    background-color: #333;
-    padding: 24px;
-    margin-bottom: 24px;
-    border-radius: 12px;
-    border: 1px solid #444;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .recipe-card h2 {
-    font-size: 1.8rem;
-    color: #fff;
+    font-size: 1.5rem;
+    color: #333;
     margin: 0;
-    text-transform: capitalize;
 }
 
 .recipe-card .tags {
     margin-top: 8px;
-    color: #aaa;
-    font-size: 1rem;
+    color: #777;
+    font-size: 0.875rem;
 }
 
 .recipe-card a {
@@ -163,10 +189,9 @@ body {
     text-decoration: underline;
 }
 
-/* Mise en page des sections sur mobile */
 @media (max-width: 600px) {
     #recipe-container {
-        flex-direction: column; /* Empile les sections en mode mobile */
+        flex-direction: column; /* En mode mobile, empile les sections */
     }
 
     #ingredients-container,
