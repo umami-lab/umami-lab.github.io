@@ -6,7 +6,7 @@
   </div>
 
   <!-- Bienvenue et introduction -->
-  <h1>Bienvenue sur le site de recettes</h1>
+  <h1>Où mamie Lab</h1>
 
   <!-- Liste des recettes -->
   <div id="recipes-list">
@@ -16,8 +16,9 @@
                   <a href="{{ .Permalink }}">
                       <h2>{{ .Title }}</h2>
                       <p class="tags">
-                          {{ range .Params.tags }}
-                              <span>{{ . }}</span>{{ if not (last .) }}, {{ end }}
+                          {{ $tags := .Params.tags }}
+                          {{ range $index, $tag := $tags }}
+                              <span>{{ $tag }}</span>{{ if lt $index (sub (len $tags) 1) }}, {{ end }}
                           {{ end }}
                       </p>
                   </a>
