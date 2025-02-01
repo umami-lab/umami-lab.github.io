@@ -1,4 +1,8 @@
 /* Style général de la page */
+body {
+    background-color: #F5F5F5;
+}
+
 .container {
     max-width: 900px;
     margin: 0 auto;
