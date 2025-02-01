@@ -1,6 +1,12 @@
 {{ define "main" }}
+  <!-- Barre de recherche -->
+  <div id="search-container">
+      <input type="text" id="searchInput" placeholder="Rechercher une recette..." oninput="searchRecipes()">
+      <ul id="searchResults"></ul>
+  </div>
+
   <!-- Bienvenue et introduction -->
-  <h1>Umami-Lab</h1>
+  <h1>Bienvenue sur le site de recettes</h1>
 
   <!-- Liste des recettes -->
   <div id="recipes-list">
@@ -10,8 +16,9 @@
                   <a href="{{ .Permalink }}">
                       <h2>{{ .Title }}</h2>
                       <p class="tags">
-                          {{ range .Params.tags }}
-                              <span>{{ . }}</span>{{ if not (last .) }}, {{ end }}
+                          {{ $tags := .Params.tags }}
+                          {{ range $index, $tag := $tags }}
+                              <span>{{ $tag }}</span>{{ if lt $index (sub (len $tags) 1) }}, {{ end }}
                           {{ end }}
                       </p>
                   </a>
