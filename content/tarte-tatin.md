@@ -41,7 +41,7 @@ Mélangez les ingrédients jusqu'à obtenir une pâte homogène. Étalez la pât
 
 ### Cuisson
 
-Une fois que le jus des pommes forme un sirop épais, ajoutez la pâte par-dessus, puis piquez la pâte à plusieurs endroits avec la pointe d'un couteau. Mettez la tarte au four pour une quinzaine de minutes.
+Une fois que le jus des pommes forme un sirop épais, ajoutez la pâte par-dessus, puis piquez la pâte à plusieurs endroits avec la pointe d'un couteau. Mettez la tarte au four pour une quinzaine de minutes à 180 degrés.
 
 <!-- section -->
 ## Photos
