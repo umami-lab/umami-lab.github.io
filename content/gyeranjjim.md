@@ -5,7 +5,7 @@ tags: ['coréen', 'œufs', 'vapeur', 'plat']
 type: recipe
 ---
 
-![](../images/gyeranjjim.jepg)
+![](../images/gyeranjjim.jpeg)
 
 <!-- section -->
 
