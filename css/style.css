@@ -80,7 +80,7 @@
     #ingredients-container {
         flex: 1;
         max-width: 45%;
-        background-color: #d1d1d1; /* Fond gris clair */
+        background-color: #444444; /* Fond gris clair */
         padding: 16px;
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
