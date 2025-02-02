@@ -178,7 +178,8 @@
     margin-top: 8px;
     color: #777;
     font-size: 0.875rem;
-    display: none;  /* Cacher les tags */ }
+    display: none;  /* Cacher les tags */
+}
 
 .recipe-card a {
     text-decoration: none;
