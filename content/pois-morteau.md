@@ -16,7 +16,7 @@ type: recipe
 - **1** oignon  
 - **0,5 l** de bouillon de volaille  
 - **1 cuil. à soupe** de crème fraîche  
-- **1** saucisses de Morteau  
+- **1** saucisse de Morteau  
 - **1** branche de persil plat  
 - **0,25 cuil. à soupe** d'huile d’olive  
 - Sel
