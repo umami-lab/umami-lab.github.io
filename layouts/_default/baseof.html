@@ -4,76 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.css'>
-    <link rel="stylesheet" href='{{ "css/style.css" | relURL }}'>
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 
 <body>
-    <div id="search-container">
-        <input type="text" id="searchInput" placeholder="Rechercher une recette..." oninput="searchRecipes()">
-        <ul id="searchResults"></ul>
-    </div>
-
     {{ block "main" . }}{{ end }}
-
-    <script>
-        // Fonction de recherche
-        function searchRecipes() {
-            const searchInput = document.getElementById('searchInput').value.toLowerCase();
-            const searchResults = document.getElementById('searchResults');
-            
-            // Effacer les résultats précédents
-            searchResults.innerHTML = '';
-
-            // Trouver tous les fichiers de recettes (fichiers .md dans le dossier content)
-            const recipes = document.querySelectorAll('.recipe-card'); // Assume que chaque recette a la classe 'recipe-card'
-
-            // Si aucun texte dans la barre de recherche
-            if (!searchInput) {
-                return;
-            }
-
-            recipes.forEach((recipe) => {
-                const title = recipe.querySelector('h2').innerText.toLowerCase();
-                const tags = recipe.querySelector('.tags').innerText.toLowerCase();
-
-                if (title.includes(searchInput) || tags.includes(searchInput)) {
-                    const li = document.createElement('li');
-                    li.innerHTML = `<a href="${recipe.querySelector('a').getAttribute('href')}">${recipe.querySelector('h2').innerText}</a>`;
-                    searchResults.appendChild(li);
-                }
-            });
-        }
-    </script>
-
-    <style>
-        #searchResults {
-            list-style: none;
-            padding: 0;
-            margin-top: 10px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            max-height: 200px;
-            overflow-y: auto;
-        }
-
-        #searchResults li {
-            padding: 8px;
-            background-color: #f9f9f9;
-            border-bottom: 1px solid #ddd;
-        }
-
-        #searchResults li a {
-            text-decoration: none;
-            color: #007BFF;
-        }
-
-        #searchResults li a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </body>
 </html>
-
-

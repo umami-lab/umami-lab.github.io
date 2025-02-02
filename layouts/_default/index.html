@@ -2,6 +2,12 @@
   <!-- Bienvenue et introduction -->
   <h1>Umami-Lab</h1>
 
+  <!-- Barre de recherche -->
+  <div id="search-container">
+      <input type="text" id="searchInput" placeholder="Rechercher une recette..." oninput="searchRecipes()">
+      <ul id="searchResults"></ul>
+  </div>
+
   <!-- Liste des recettes -->
   <div id="recipes-list">
       {{ range .Pages }}
@@ -23,7 +29,6 @@
 
   <!-- Script de recherche -->
   <script>
-      // Fonction de recherche
       function searchRecipes() {
           const searchInput = document.getElementById('searchInput').value.toLowerCase();
           const searchResults = document.getElementById('searchResults');
