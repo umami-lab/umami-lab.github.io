@@ -205,3 +205,8 @@
         max-width: 100%;
     }
 }
+
+/* Cacher les tags dans les cartes de recettes */
+#recipes-list .recipe-card .tags {
+    display: none;  /* Cacher les tags */
+}
