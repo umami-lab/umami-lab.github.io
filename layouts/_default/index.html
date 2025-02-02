@@ -12,7 +12,7 @@
   <div id="recipes-list">
       {{ range .Pages }}
           {{ if eq .Type "recipe" }}  <!-- Filtrer pour afficher uniquement les recettes -->
-              <div class="recipes-card">
+              <div class="recipe-card">
                   <a href="{{ .Permalink }}">
                       <h2>{{ .Title }}</h2>
                       <p class="tags">
