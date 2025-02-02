@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
+    <!-- Lien vers Water.css (si tu en as encore besoin) -->
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.css'>
+    <!-- Lien vers ton fichier CSS personnalisé -->
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body>
+<body class="{{ .Type }}">
+    <!-- Le contenu principal de chaque page est défini ici -->
     {{ block "main" . }}{{ end }}
 </body>
 </html>

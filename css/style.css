@@ -178,7 +178,6 @@
     margin-top: 8px;
     color: #777;
     font-size: 0.875rem;
-    display: none;  /* Cacher les tags */
 }
 
 .recipe-card a {
@@ -188,6 +187,11 @@
 
 .recipe-card a:hover h2 {
     text-decoration: underline;
+}
+
+/* Cacher les tags uniquement sur la page d'accueil */
+body.home .recipe-card .tags {
+    display: none;  /* Masquer les tags sur la page d'accueil */
 }
 
 @media (max-width: 600px) {
