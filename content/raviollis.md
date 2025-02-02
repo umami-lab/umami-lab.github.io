@@ -73,7 +73,5 @@ Servez avec une sauce traditionnelle composée de sauce soja, vinaigre noir chin
 <!-- section -->
 
 ## Photos
-
 ![](../images/raviollis1.jpg)
-
 ![](../images/raviollis2.jpg)
