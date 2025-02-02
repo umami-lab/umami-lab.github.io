@@ -3,38 +3,23 @@
   <h1>Umami-Lab</h1>
 
   <!-- Liste des recettes -->
-  {{ define "main" }}
-  <h1>Umami-Lab</h1>
-
-  <!-- Afficher les recettes par catégorie -->
-  <div id="categories-list">
-      {{ $categories := slice "Entrées" "Plats" "Desserts" "Chine" "France" "USA" "Végétarien" "Non-Végétarien" }}
-      
-      {{ range $categories }}
-          {{ $category := . }}
-          {{ $filteredPages := where site.RegularPages "Params.categories" "intersect" (slice $category) }}
-          
-          {{ if gt (len $filteredPages) 0 }}
-              <h2>{{ $category }}</h2>
-              <div class="recipes-list">
-                  {{ range $filteredPages }}
-                      <div class="recipe-card">
-                          <a href="{{ .Permalink }}">
-                              <h3>{{ .Title }}</h3>
-                              <p class="tags">
-                                  {{ range .Params.categories }}
-                                      <span>{{ . }}</span>
-                                  {{ end }}
-                              </p>
-                          </a>
-                      </div>
-                  {{ end }}
+  <div id="recipes-list">
+      {{ range .Pages }}
+          {{ if eq .Type "recipe" }}  <!-- Filtrer pour afficher uniquement les recettes -->
+              <div class="recipe-card">
+                  <a href="{{ .Permalink }}">
+                      <h2>{{ .Title }}</h2>
+                      <p class="tags">
+                          {{ $tags := .Params.tags }}
+                          {{ range $index, $tag := $tags }}
+                              <span>{{ $tag }}</span>{{ if lt $index (sub (len $tags) 1) }}, {{ end }}
+                          {{ end }}
+                      </p>
+                  </a>
               </div>
           {{ end }}
       {{ end }}
   </div>
-
-{{ end }}
 
   <!-- Script de recherche -->
   <script>
