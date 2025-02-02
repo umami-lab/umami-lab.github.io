@@ -8,7 +8,7 @@ type: recipe
 
 ![](../images/mantou.jpeg)
 
-<!-- section -->
+
 
 ## Ingrédients
 

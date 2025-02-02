@@ -1,5 +1,5 @@
 ---
-title: "Velouté de pois cassés aux saucisses fumées"
+title: "Velouté de pois cassés à la saucisse de Morteau"
 draft: false
 tags: ["français", "soupe", "pois cassés", "hiver"]
 categories: ["Plats", "France"]

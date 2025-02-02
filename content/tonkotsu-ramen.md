@@ -1,5 +1,5 @@
 ---
-title: 'Tonkotsu Ramen'
+title: 'Tonkotsu Ramen (豚骨ラーメン) / Ramen au bouillon de porc'
 draft: false
 tags: ['japonais', 'ramen', 'bouillon', 'porc']
 categories: ["Plats", "Japon"]
