@@ -2,6 +2,7 @@
 title: "Teurgoule / Riz au lait normand"
 draft: false
 tags: ["français", "riz au lait", "normand", "dessert"]
+categories: ["Plats", "France"]
 type: recipe
 ---
 ![](../images/teurgoule.jpg)

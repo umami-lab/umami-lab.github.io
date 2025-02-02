@@ -2,6 +2,7 @@
 title: 'Baozi (包子) / Brioche chinoise farcie'
 draft: false
 tags: ['chinois', 'bao', 'farci', 'plat']
+categories: ["Plats", "Chine"]
 type: recipe
 ---
 

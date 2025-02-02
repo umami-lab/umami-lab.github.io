@@ -2,6 +2,7 @@
 title: Jiǎozi (饺子) / Raviollis chinois
 draft: false
 tags: ["chinois", "raviollis", "farce", "plat"]
+categories: ["Plats", "Chine"]
 type: recipe
 ---
 

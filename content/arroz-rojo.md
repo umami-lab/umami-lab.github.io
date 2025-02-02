@@ -2,6 +2,7 @@
 title: 'Arroz Rojo / Riz Mexicain  '
 draft: false
 tags: ['mexicain', 'riz', 'tomates', 'plat']
+categories: ["Plats", "Mexique"]
 type: recipe
 ---
 

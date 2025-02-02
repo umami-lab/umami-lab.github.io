@@ -2,6 +2,7 @@
 title: 'Tarte-tatin'
 draft: false
 tags: ['français', 'tarte', 'pommes', 'dessert']
+categories: ["Dessert", "France"]
 type: recipe
 ---
 

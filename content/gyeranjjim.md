@@ -2,6 +2,7 @@
 title: 'Gyeranjjim (계란찜) / Œufs coréens à la vapeur'
 draft: false
 tags: ['coréen', 'œufs', 'vapeur', 'plat']
+categories: ["Plats", "Corée"]
 type: recipe
 ---
 

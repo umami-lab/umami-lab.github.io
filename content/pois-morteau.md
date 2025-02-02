@@ -2,6 +2,7 @@
 title: "Velouté de pois cassés aux saucisses fumées"
 draft: false
 tags: ["français", "soupe", "pois cassés", "hiver"]
+categories: ["Plats", "France"]
 type: recipe
 ---
 

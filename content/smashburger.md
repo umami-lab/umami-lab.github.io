@@ -2,6 +2,7 @@
 title: 'SmashBurger'
 draft: false
 tags: ['usa', 'sandwich', 'boeuf', 'plat']
+categories: ["Plats", "USA"]
 type: recipe
 ---
 
