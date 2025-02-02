@@ -178,7 +178,7 @@
     margin-top: 8px;
     color: #777;
     font-size: 0.875rem;
-}
+    display: none;  /* Cacher les tags */ }
 
 .recipe-card a {
     text-decoration: none;
@@ -204,9 +204,4 @@
     #image-container p img {
         max-width: 100%;
     }
-}
-
-/* Cacher les tags dans les cartes de recettes */
-#recipes-list .recipe-card .tags {
-    display: none;  /* Cacher les tags */
 }
