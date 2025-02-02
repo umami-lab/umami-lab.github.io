@@ -5,6 +5,7 @@
     padding: 16px;
 }
 
+
 @media print {
     #back-link, #image-container {
         display: none;

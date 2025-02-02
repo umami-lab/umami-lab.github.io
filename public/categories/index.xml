@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Umami-lab</title>
+    <link>http://localhost:1313/umami-lab.github.io/categories/</link>
+    <description>Recent content in Categories on Umami-lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/umami-lab.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chine</title>
+      <link>http://localhost:1313/umami-lab.github.io/categories/chine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/categories/chine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Corée</title>
+      <link>http://localhost:1313/umami-lab.github.io/categories/cor%C3%A9e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/categories/cor%C3%A9e/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dessert</title>
+      <link>http://localhost:1313/umami-lab.github.io/categories/dessert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/categories/dessert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Desserts</title>
+      <link>http://localhost:1313/umami-lab.github.io/categories/desserts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/categories/desserts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Espagne</title>
+      <link>http://localhost:1313/umami-lab.github.io/categories/espagne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/categories/espagne/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>France</title>
+      <link>http://localhost:1313/umami-lab.github.io/categories/france/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/categories/france/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Italie</title>
+      <link>http://localhost:1313/umami-lab.github.io/categories/italie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/categories/italie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Japon</title>
+      <link>http://localhost:1313/umami-lab.github.io/categories/japon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/categories/japon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mexique</title>
+      <link>http://localhost:1313/umami-lab.github.io/categories/mexique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/categories/mexique/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Moyen-Orient</title>
+      <link>http://localhost:1313/umami-lab.github.io/categories/moyen-orient/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/categories/moyen-orient/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plats</title>
+      <link>http://localhost:1313/umami-lab.github.io/categories/plats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/categories/plats/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>USA</title>
+      <link>http://localhost:1313/umami-lab.github.io/categories/usa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/categories/usa/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

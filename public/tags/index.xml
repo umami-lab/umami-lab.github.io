@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/umami-lab.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bambou</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/bambou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/bambou/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Bao</title>
       <link>http://localhost:1313/umami-lab.github.io/tags/bao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -22,10 +29,38 @@
       <description></description>
     </item>
     <item>
+      <title>Bouillon</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/bouillon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/bouillon/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Chinois</title>
       <link>http://localhost:1313/umami-lab.github.io/tags/chinois/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/umami-lab.github.io/tags/chinois/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coréen</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/cor%C3%A9en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/cor%C3%A9en/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crème Anglaise</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/cr%C3%A8me-anglaise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/cr%C3%A8me-anglaise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crevettes</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/crevettes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/crevettes/</guid>
       <description></description>
     </item>
     <item>
@@ -43,6 +78,13 @@
       <description></description>
     </item>
     <item>
+      <title>Farce</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/farce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/farce/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Farci</title>
       <link>http://localhost:1313/umami-lab.github.io/tags/farci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -57,10 +99,45 @@
       <description></description>
     </item>
     <item>
+      <title>Galette</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/galette/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/galette/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hiver</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/hiver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/hiver/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Île Flottante</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/%C3%AEle-flottante/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/%C3%AEle-flottante/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Italien</title>
       <link>http://localhost:1313/umami-lab.github.io/tags/italien/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/umami-lab.github.io/tags/italien/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Japonais</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/japonais/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/japonais/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mariné</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/marin%C3%A9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/marin%C3%A9/</guid>
       <description></description>
     </item>
     <item>
@@ -71,10 +148,45 @@
       <description></description>
     </item>
     <item>
+      <title>Moules</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/moules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/moules/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Moyen-Orient</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/moyen-orient/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/moyen-orient/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Nature</title>
       <link>http://localhost:1313/umami-lab.github.io/tags/nature/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/umami-lab.github.io/tags/nature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Normand</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/normand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/normand/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Œufs</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/%C5%93ufs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/%C5%93ufs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oriental</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/oriental/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/oriental/</guid>
       <description></description>
     </item>
     <item>
@@ -99,10 +211,52 @@
       <description></description>
     </item>
     <item>
+      <title>Plat Principal</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/plat-principal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/plat-principal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pois Cassés</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/pois-cass%C3%A9s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/pois-cass%C3%A9s/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Pommes</title>
       <link>http://localhost:1313/umami-lab.github.io/tags/pommes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/umami-lab.github.io/tags/pommes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Porc</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/porc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/porc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portugais</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/portugais/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/portugais/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ramen</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/ramen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/ramen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raviollis</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/raviollis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/raviollis/</guid>
       <description></description>
     </item>
     <item>
@@ -113,10 +267,31 @@
       <description></description>
     </item>
     <item>
+      <title>Riz Au Lait</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/riz-au-lait/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/riz-au-lait/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Riz Gluant</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/riz-gluant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/riz-gluant/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Sandwich</title>
       <link>http://localhost:1313/umami-lab.github.io/tags/sandwich/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/umami-lab.github.io/tags/sandwich/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sarrasin</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/sarrasin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/sarrasin/</guid>
       <description></description>
     </item>
     <item>
@@ -145,6 +320,20 @@
       <link>http://localhost:1313/umami-lab.github.io/tags/usa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/umami-lab.github.io/tags/usa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vapeur</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/vapeur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/vapeur/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Végétarien</title>
+      <link>http://localhost:1313/umami-lab.github.io/tags/v%C3%A9g%C3%A9tarien/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/umami-lab.github.io/tags/v%C3%A9g%C3%A9tarien/</guid>
       <description></description>
     </item>
   </channel>
