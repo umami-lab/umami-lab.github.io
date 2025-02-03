@@ -64,6 +64,23 @@
     text-align: center;
 }
 
+/* Ajustement de l'image */
+#image-container {
+    max-width: 100%;  /* Limite la largeur du conteneur */
+    width: 100%;      /* Assure que le conteneur occupe toute la largeur disponible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  /* Empêche le débordement d'image si l'image est trop grande */
+}
+
+#image-container img {
+    max-width: 100%;   /* Limite l'image à la largeur du conteneur */
+    height: auto;      /* Maintient le ratio d'aspect */
+    object-fit: contain; /* Garantit que l'image s'adapte au conteneur sans déformation */
+    border-radius: 8px;
+}
+
 #ingredients-container h2,
 #section-2 h2,
 #section-3 h2 {
@@ -92,18 +109,18 @@
         max-width: 45%;
     }
 
-#image-container {
-    max-width: 100%;  /* Limite la largeur du conteneur */
-    width: 100%;      /* Assure que le conteneur occupe toute la largeur disponible */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;  /* Empêche le débordement d'image si l'image est trop grande */
-}
+    #image-container {
+        max-width: 100%;  /* Limite la largeur du conteneur */
+        width: 100%;      /* Assure que le conteneur occupe toute la largeur disponible */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;  /* Empêche le débordement d'image si l'image est trop grande */
+    }
 
     #image-container img {
-        max-width: 100%;
-        border-radius: 8px;
+        max-width: 100%;   /* Assure que l'image ne dépasse pas la largeur du conteneur */
+        height: auto;      /* Maintient le ratio d'aspect */
     }
 
     #section-2, #section-3 {
@@ -233,4 +250,5 @@ a, .recipe-card a {
 .recipe-card a:hover {
     text-decoration: underline;
 }
+
 
