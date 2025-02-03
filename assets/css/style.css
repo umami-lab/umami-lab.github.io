@@ -3,8 +3,8 @@
     max-width: 900px;
     margin: 0 auto;
     padding: 16px;
+    text-align: justify; /* Justification du texte */
 }
-
 
 @media print {
     #back-link, #image-container {
@@ -34,15 +34,24 @@
 }
 
 /* Sections de contenu */
-#ingredients-container,
 #section-2,
 #section-3 {
     background-color: #f5f5f5;
     padding: 16px;
     margin-top: 16px;
     border-radius: 8px;
-    border: 1px solid #ddd;
+    text-align: justify; /* Justification du texte */
+}
+
+/* Encadrement uniquement pour la partie ingrédients */
+#ingredients-container {
+    background-color: #f5f5f5;
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 8px;
+    border: 2px solid #333; /* Bordure plus visible */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify; /* Justification du texte */
 }
 
 /* Section spécifique pour l'image */
@@ -81,10 +90,6 @@
     #ingredients-container {
         flex: 1;
         max-width: 45%;
-        background-color: #f5f5f5 !important; /* Fond gris clair */
-        padding: 16px;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     #image-container {
@@ -116,6 +121,7 @@
     background-color: #f5f5f5;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify; /* Justification du texte */
 }
 
 #searchInput {
@@ -167,6 +173,7 @@
     border-radius: 8px;
     border: 1px solid #ddd;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify; /* Justification du texte */
 }
 
 .recipe-card h2 {
@@ -192,7 +199,7 @@
 
 @media (max-width: 600px) {
     #recipe-container {
-        flex-direction: column; /* En mode mobile, empile les sections */
+        flex-direction: column;
     }
 
     #ingredients-container,
