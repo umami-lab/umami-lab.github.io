@@ -5,6 +5,7 @@ tags: ['japonais', 'ramen', 'œufs', 'mariné', 'végétarien']
 categories: ["Plats", "Japon"]
 type: recipe
 ---
+![](../images/oeufs-marines.jpg)
 
 <!-- section -->
 

@@ -6,7 +6,7 @@ categories: ["Desserts", "France"]
 type: recipe
 ---
 
-![](../images/fougasse.jpeg)
+![](../images/fougasse.jpg)
 
 ## Ingrédients
 
