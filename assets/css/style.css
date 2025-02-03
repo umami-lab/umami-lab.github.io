@@ -92,11 +92,15 @@
         max-width: 45%;
     }
 
-    #image-container {
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+#image-container {
+    max-width: 100%;  /* Limite la largeur du conteneur */
+    width: 100%;      /* Assure que le conteneur occupe toute la largeur disponible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  /* Empêche le débordement d'image si l'image est trop grande */
+}
+
     }
 
     #image-container img {
