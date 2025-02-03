@@ -101,8 +101,6 @@
     overflow: hidden;  /* Empêche le débordement d'image si l'image est trop grande */
 }
 
-    }
-
     #image-container img {
         max-width: 100%;
         border-radius: 8px;
