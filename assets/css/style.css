@@ -66,7 +66,7 @@
 #ingredients-container h2::before,
 #section-2 h2::before,
 #section-3 h2::before {
-    content: "🔸 ";
+    content: "🔸";
     margin-right: 8px;
 }
 
@@ -81,7 +81,7 @@
     #ingredients-container {
         flex: 1;
         max-width: 45%;
-        background-color: #444444 !important; /* Fond gris clair */
+        background-color: #f5f5f5 !important; /* Fond gris clair */
         padding: 16px;
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -179,6 +179,7 @@
     margin-top: 8px;
     color: #777;
     font-size: 0.875rem;
+    visibility: hidden;
 }
 
 .recipe-card a {
