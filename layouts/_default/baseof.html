@@ -6,10 +6,56 @@
     <title>{{ .Title }}</title>
     {{ $styles := resources.Get "css/style.css" | minify }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.css'>
+    <!-- Lien vers le fichier CSS pour le mode sombre/clair -->
+    <style>
+        /* Mode clair (par défaut) */
+        body {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        /* Mode sombre */
+        body.sombre {
+            background-color: #121212;
+            color: #ffffff;
+        }
+    </style>
 </head>
 
 <body>
+
+    <!-- Contenu principal de la page -->
     {{ block "main" . }}{{ end }}
+
+    <!-- Bouton pour changer le mode -->
+    <button id="mode-toggle">Passer en mode sombre</button>
+
+    <!-- Ajouter le script pour basculer entre les modes sombre/clair -->
+    <script>
+      // Sélectionne le bouton et le body
+      const toggleButton = document.getElementById('mode-toggle');
+      const body = document.body;
+
+      // Vérifie si le mode sombre est activé dans le localStorage
+      if (localStorage.getItem('mode') === 'sombre') {
+        body.classList.add('sombre');
+        toggleButton.textContent = 'Passer en mode clair';
+      }
+
+      // Ajoute un écouteur d'événement pour le bouton
+      toggleButton.addEventListener('click', () => {
+        body.classList.toggle('sombre');
+
+        // Enregistre l'état du mode dans le localStorage
+        if (body.classList.contains('sombre')) {
+          localStorage.setItem('mode', 'sombre');
+          toggleButton.textContent = 'Passer en mode clair';
+        } else {
+          localStorage.setItem('mode', 'clair');
+          toggleButton.textContent = 'Passer en mode sombre';
+        }
+      });
+    </script>
+
 </body>
 </html>
