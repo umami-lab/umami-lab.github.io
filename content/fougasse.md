@@ -1,5 +1,5 @@
 ---
-title: 'Fougasse sucrée à la fleur d’oranger'
+title: 'Fougasse sucrée'
 draft: false
 tags: ['français', 'dessert', 'provence', 'sucré']
 categories: ["Desserts", "France"]
