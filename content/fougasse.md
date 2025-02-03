@@ -8,7 +8,10 @@ type: recipe
 
 ![](../images/fougasse.jpg)
 
+<!-- section -->
+
 ## Ingrédients
+### Fougasse
 
 - **250 g** de farine  
 - **300 ml** de sucre  
@@ -18,9 +21,14 @@ type: recipe
 - **25 cl** de crème fraîche  
 - **5 à 10 cl** de fleur d'oranger (à ajuster selon les goûts)  
 - **1 sachet** de sucre vanillé ou quelques gouttes d'extrait de vanille (optionnel)  
-- **1 c. à soupe** de rhum (optionnel)  
+- **1 c. à soupe** de rhum (optionnel)
+
+### Glaçage
+
 - Beurre doux fondu  
-- Sucre cristal  
+- Sucre cristal
+
+<!-- section -->
 
 ## Préparation
 
