@@ -238,6 +238,34 @@
     flex: 1;
     max-width: 45%;
 }
+.single-recipe #recipe-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Limiter la largeur et la hauteur de l’image */
+.single-recipe #image-container {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-recipe #image-container img {
+    max-width: 100%;
+    height: auto; /* S'assure que l'image ne déborde pas */
+    max-height: 400px; /* Ajuste cette valeur selon tes besoins */
+    object-fit: cover; /* Permet de garder un bon cadrage */
+}
+
+/* Ajustement du conteneur des ingrédients */
+.single-recipe #ingredients-container {
+    flex: 1;
+    max-width: 50%;
+}
 
 @media (max-width: 600px) {
     .single-recipe #recipe-container {
