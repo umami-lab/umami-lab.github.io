@@ -12,12 +12,12 @@ type: recipe
 ## Ingrédients
 
 ### Pour les œufs marinés :
-- **4 œufs frais**
-- **60 ml de sauce soja**
-- **60 ml de mirin**
-- **60 ml de saké**
-- **40 g de sucre**
-- **12 ml de dashi en poudre**
+- **4** œufs frais
+- **60 ml** de sauce soja
+- **60 ml** de mirin
+- **60 ml** de saké
+- **40 g** de sucre
+- **12 ml** de dashi en poudre
 
 <!-- section -->
 
