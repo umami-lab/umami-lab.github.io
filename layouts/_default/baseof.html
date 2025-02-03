@@ -7,9 +7,5 @@
     {{ $styles := resources.Get "css/style.css" | minify }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 </head>
-
-<body class="{{ if eq .Type "recipe" }}single-recipe{{ end }}">
-    {{ block "main" . }}{{ end }}
-</body>
 </html>
 
