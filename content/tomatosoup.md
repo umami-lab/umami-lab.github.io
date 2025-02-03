@@ -1,7 +1,7 @@
 ---
 title: 'Gaspacho'
 draft: false
-tags: ['espagnol', 'soupe', 'tomates', 'plat']
+tags: ['espagnol', 'soupe', 'tomates', 'plat', 'végétarien']
 categories: ["Plats", "Espagne"]
 type: recipe
 ---

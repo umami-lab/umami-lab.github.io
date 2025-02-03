@@ -1,7 +1,7 @@
 ---
 title: 'Ajitsuke Tamago (味付け玉子) / Œufs marinés pour ramen'
 draft: false
-tags: ['japonais', 'ramen', 'œufs', 'mariné']
+tags: ['japonais', 'ramen', 'œufs', 'mariné', 'végétarien']
 categories: ["Plats", "Japon"]
 type: recipe
 ---

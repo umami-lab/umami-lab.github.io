@@ -1,7 +1,7 @@
 ---
 title: 'Chakchouka'
 draft: false
-tags: ['Moyen-orient', 'oriental', 'végétarien', 'plat']
+tags: ['moyen-orient', 'oriental', 'végétarien', 'plat']
 categories: ["Plats", "Moyen-Orient"]
 type: recipe
 ---

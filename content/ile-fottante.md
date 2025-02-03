@@ -1,5 +1,5 @@
 ---
-title: "Île flottante à la crème anglaise"
+title: "Île flottante"
 draft: false
 tags: ["français", "dessert", "île flottante", "crème anglaise"]
 type: recipe
