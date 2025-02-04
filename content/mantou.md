@@ -8,11 +8,9 @@ type: recipe
 
 ![](../images/mantou.jpeg)
 
+<!-- section -->
 
-
-## Ingrédients
-
-### Pour 6 mantou
+## Ingrédients (6 mantou)
 
 - **250 g** de farine
 - **1 cuillère à soupe** de sucre
