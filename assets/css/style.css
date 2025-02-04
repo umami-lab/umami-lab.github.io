@@ -270,6 +270,6 @@ body.sombre b {
 }
 
 body.sombre #ingredients-container {
-    background-color: #333333; /* Gris foncé */
-    color: #ffffff; /* Texte blanc pour assurer la lisibilité */
+    background-color: #333333 !important; /* Gris foncé */
+    color: #ffffff !important; /* Texte blanc pour assurer la lisibilité */
 }
