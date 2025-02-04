@@ -33,10 +33,10 @@
     </div>
   {{- end -}} <!-- Fermeture du if pour la section 3 -->
 
-  {{- else -}}
+  {{- if lt $sectionCount 2 -}}
     <div id="content-not-split-into-sections">
       {{ .Content }}
     </div>
-  {{- end -}}
+  {{- end -}} <!-- Fermeture du if pour les cas où il y a une seule section -->
 
 {{ end }}
