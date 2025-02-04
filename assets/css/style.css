@@ -268,3 +268,8 @@ body.sombre strong,
 body.sombre b {
     color: #ffffff; /* Texte blanc en mode sombre */
 }
+
+body.sombre #ingredients-container {
+    background-color: #333333; /* Gris foncé */
+    color: #ffffff; /* Texte blanc pour assurer la lisibilité */
+}
