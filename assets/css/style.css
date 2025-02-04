@@ -233,22 +233,4 @@
     }
 }
 
-/* Mode clair (par défaut) */
-body {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-/* Mode sombre */
-body.sombre {
-    background-color: #121212;
-    color: #ffffff;
-}
-a, .recipe-card a {
-    color: #007BFF;  /* Assure-toi que les liens sont visibles en mode sombre */
-}
-.recipe-card a:hover {
-    text-decoration: underline;
-}
-
 
