@@ -233,4 +233,27 @@
     }
 }
 
+/* Mode clair (par défaut) */
+#ingredients-container,
+#section-2,
+#section-3,
+#search-container {
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+/* Mode sombre */
+body.sombre #ingredients-container,
+body.sombre #section-2,
+body.sombre #section-3,
+body.sombre #search-container {
+    background-color: #333; /* Gris foncé */
+    color: #fff; /* Texte blanc */
+    border-color: #555; /* Bordure plus discrète */
+}
+
+/* Pour rendre le texte des titres visible en mode sombre */
+body.sombre h2 {
+    color: #ffcc00; /* Jaune clair pour contraster avec le fond sombre */
+}
 
