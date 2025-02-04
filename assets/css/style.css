@@ -252,8 +252,19 @@ body.sombre #search-container {
     border-color: #555; /* Bordure plus discrète */
 }
 
-/* Pour rendre le texte des titres visible en mode sombre */
-body.sombre h2 {
-    color: #ffcc00; /* Jaune clair pour contraster avec le fond sombre */
+/* Assure que les titres et le texte en gras changent de couleur */
+h1, h2, h3, h4, h5, h6, strong, b {
+    color: inherit; /* Hérite la couleur du body */
 }
 
+/* Optionnel : si certains éléments ne changent toujours pas, applique une couleur spécifique */
+body.sombre h1, 
+body.sombre h2, 
+body.sombre h3, 
+body.sombre h4, 
+body.sombre h5, 
+body.sombre h6, 
+body.sombre strong, 
+body.sombre b {
+    color: #ffffff; /* Texte blanc en mode sombre */
+}
