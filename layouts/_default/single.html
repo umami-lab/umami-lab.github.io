@@ -5,22 +5,26 @@
   {{- $rawContentSections := split .RawContent $sectionDelimiter -}}
   {{- $sectionCount := len $rawContentSections -}}
 
-  <div id="recipe-container" style="display: flex; justify-content: space-between; gap: 20px;">
+  <!-- Conteneur flex pour l'image et les ingrédients -->
+  <div id="recipe-container" style="display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap;">
   
+    <!-- Section image -->
     {{- if gt $sectionCount 1 -}}
-      <div id="image-container" style="flex: 1; display: flex; justify-content: center; align-items: center;">
+      <div id="image-container" style="flex: 1; max-width: 48%; display: flex; justify-content: center; align-items: center;">
         {{ index $rawContentSections 0 | .RenderString }}
       </div>
     {{- end -}} <!-- Fermeture du if pour l'image -->
 
+    <!-- Section ingrédients -->
     {{- if ge $sectionCount 2 -}}
-      <div id="ingredients-container" style="flex: 1; background-color: #f8f8f8; padding: 16px; border: 1px solid #ddd; border-radius: 8px;">
+      <div id="ingredients-container" style="flex: 1; max-width: 48%; background-color: #f8f8f8; padding: 16px; border: 1px solid #ddd; border-radius: 8px;">
         {{ index $rawContentSections 1 | .RenderString }}
       </div>
     {{- end -}} <!-- Fermeture du if pour les ingrédients -->
   
-  </div> <!-- Fermeture de #recipe-container -->
+  </div> <!-- Fermeture du conteneur flex -->
 
+  <!-- Autres sections -->
   {{- if ge $sectionCount 3 -}}
     <div id="section-2">
       {{ index $rawContentSections 2 | .RenderString }}
@@ -33,6 +37,7 @@
     </div>
   {{- end -}} <!-- Fermeture du if pour la section 3 -->
 
+  <!-- Si moins de 2 sections, afficher tout le contenu dans une seule section -->
   {{- if lt $sectionCount 2 -}}
     <div id="content-not-split-into-sections">
       {{ .Content }}
