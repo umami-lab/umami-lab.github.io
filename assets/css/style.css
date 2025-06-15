@@ -95,6 +95,10 @@ body.sombre #section-3 h2 {
     color: #ffffff;
 }
 
+body.sombre .recipe-card h2 {
+    color: #333; /* Titre de la recette en blanc en mode sombre */
+}
+
 #ingredients-container h2::before,
 #section-2 h2::before,
 #section-3 h2::before {
