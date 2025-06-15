@@ -11,7 +11,7 @@
     </div>
 
   {{- if ge $sectionCount 2 -}}
-    <div id="ingredients-container" style="background-color: #f8f8f8; padding: 16px; border: 1px solid #ddd; border-radius: 8px;">
+    <div id="ingredients-container">
         {{ index $rawContentSections 1 | .RenderString }}
     </div>
   {{- end -}} <!-- Fermeture du if pour les ingrédients -->
