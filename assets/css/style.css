@@ -53,15 +53,6 @@
     text-align: justify; /* Justification du texte */
 }
 
-body.sombre #ingredients-container {
-    padding: 16px;
-    margin-top: 16px;
-    border-radius: 8px;
-    border: 2px solid #333; /* Bordure plus visible */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: justify; /* Justification du texte */
-    color: #393E46;
-}
 
 /* Section spécifique pour l'image */
 #image {
@@ -258,13 +249,18 @@ body.sombre #section-3 h2 {
 }
 
 /* Mode sombre */
-body.sombre #ingredients-container,
+body.sombre #ingredients-container {
+    background-color: #2a2a2a;
+    border-color: #555;
+    color: #fff;
+}
+
 body.sombre #section-2,
 body.sombre #section-3,
 body.sombre #search-container {
-    background-color: #333; /* Gris foncé */
-    color: #fff; /* Texte blanc */
-    border-color: #555; /* Bordure plus discrète */
+    background-color: #333;
+    border-color: #555;
+    color: #fff;
 }
 
 /* Assure que les titres et le texte en gras changent de couleur */
