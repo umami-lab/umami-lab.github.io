@@ -88,6 +88,12 @@
     color: #333;
 }
 
+body.sombre #ingredients-container h2,
+body.sombre #section-2 h2,
+body.sombre #section-3 h2 {
+    color: #ffffff;
+}
+
 #ingredients-container h2::before,
 #section-2 h2::before,
 #section-3 h2::before {
