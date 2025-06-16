@@ -8,6 +8,8 @@
   {{ $styles := resources.Get "css/style.css" | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.css">
+    <!-- Ton CSS dédié au PDF, uniquement à l'impression -->
+  <link rel="stylesheet" href="/css/pdf.css" media="print">
 
   <style>
     #mode-toggle {
