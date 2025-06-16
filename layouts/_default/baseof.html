@@ -85,4 +85,42 @@
     });
   </script>
 
-  <!
+  <!-- jsPDF -->
+  {{ if eq .Type "recipe" }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script>
+    document.getElementById("download-pdf").addEventListener("click", () => {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF();
+
+      const title = document.querySelector('.recipe-title')?.innerText || 'Recette';
+      doc.setFontSize(18);
+      doc.text(title, 20, 20);
+
+      let y = 30;
+
+      const ingredients = document.querySelector('.recipe-ingredients')?.innerText.trim();
+      if (ingredients) {
+        doc.setFontSize(14);
+        doc.text('Ingrédients :', 20, y);
+        y += 8;
+        const lines = doc.splitTextToSize(ingredients, 170);
+        doc.text(lines, 20, y);
+        y += lines.length * 7;
+      }
+
+      const preparation = document.querySelector('.recipe-preparation')?.innerText.trim();
+      if (preparation) {
+        doc.setFontSize(14);
+        doc.text('Préparation :', 20, y);
+        y += 8;
+        const lines = doc.splitTextToSize(preparation, 170);
+        doc.text(lines, 20, y);
+      }
+
+      doc.save(title.replace(/\s+/g, '_').toLowerCase() + '.pdf');
+    });
+  </script>
+  {{ end }}
+</body>
+</html>
