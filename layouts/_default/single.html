@@ -1,38 +1,36 @@
 {{ define "main" }}
-  <div id="recipe-pdf-content">
-    <h1 class="recipe-title">{{ .Title }}</h1>
+  {{- $sectionDelimiter := "<!-- section -->" -}}
+  {{- $rawContentSections := split .RawContent $sectionDelimiter -}}
 
-    {{- $sectionDelimiter := "<!-- section -->" -}}
-    {{- $rawContentSections := split .RawContent $sectionDelimiter -}}
-    {{- $sectionCount := len $rawContentSections -}}
+  <div id="recipe-pdf-content" class="pdf-style">
+    <h1 class="latex-title">Umami-Lab</h1>
+    <h2 class="latex-subtitle">{{ .Title }}</h2>
 
-    {{- if gt $sectionCount 1 -}}
-      <div class="recipe-image">
-        {{ index $rawContentSections 0 | .RenderString }}
-      </div>
+    <p class="author">Enguerrand Michelon</p>
+    <p class="date">{{ .Date.Format "02 janvier 2006" }}</p>
 
-      {{ if ge $sectionCount 2 }}
-      <div class="recipe-ingredients" style="background-color: #f8f8f8; padding: 16px; border: 1px solid #ddd; border-radius: 8px;">
-        {{ index $rawContentSections 1 | .RenderString }}
-      </div>
-      {{ end }}
+    <hr class="separator">
 
-      {{ if ge $sectionCount 3 }}
-      <div class="recipe-preparation">
-        {{ index $rawContentSections 2 | .RenderString }}
-      </div>
-      {{ end }}
-
-      {{ if ge $sectionCount 4 }}
-      <div class="recipe-notes">
-        {{ index $rawContentSections 3 | .RenderString }}
-      </div>
-      {{ end }}
-
+    <h3 class="section-title">Résumé</h3>
+    {{ with .Params.summary }}
+      <p>{{ . }}</p>
     {{ else }}
-      <div class="recipe-full">
-        {{ .Content }}
-      </div>
+      <p>Aucune description n’a été fournie pour cette recette.</p>
+    {{ end }}
+
+    {{ if ge (len $rawContentSections) 2 }}
+      <h3 class="section-title">1. Ingrédients</h3>
+      {{ index $rawContentSections 1 | .RenderString }}
+    {{ end }}
+
+    {{ if ge (len $rawContentSections) 3 }}
+      <h3 class="section-title">2. Préparation</h3>
+      {{ index $rawContentSections 2 | .RenderString }}
+    {{ end }}
+
+    {{ if ge (len $rawContentSections) 4 }}
+      <h3 class="section-title">3. Conseils & remarques</h3>
+      {{ index $rawContentSections 3 | .RenderString }}
     {{ end }}
   </div>
 {{ end }}
