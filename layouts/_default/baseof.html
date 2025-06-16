@@ -2,18 +2,19 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ .Title }}</title>
 
   {{ $styles := resources.Get "css/style.css" | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
-  {{ $pdfStyles := resources.Get "css/pdf.css" | minify }}
-  <link rel="stylesheet" href="{{ $pdfStyles.Permalink }}" media="screen">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.css">
+  <!-- CSS PDF (impression) -->
+  {{ with resources.Get "css/pdf.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" media="print">
+  {{ end }}
 
   <style>
+    /* Bouton mode sombre */
     #mode-toggle {
       position: fixed;
       top: 16px;
@@ -30,13 +31,13 @@
 
     body {
       padding-top: 60px;
-      background-color: #ffffff;
-      color: #000000;
+      background-color: #fff;
+      color: #000;
     }
 
     body.sombre {
       background-color: #333;
-      color: #ffffff;
+      color: #fff;
     }
 
     body.sombre #mode-toggle {
@@ -44,6 +45,7 @@
       color: #fff;
     }
 
+    /* Bouton PDF */
     #download-pdf {
       margin: 12px 0;
       padding: 8px 16px;
@@ -62,11 +64,10 @@
 </head>
 
 <body>
-
   <!-- Bouton mode sombre -->
   <button id="mode-toggle">Passer en mode sombre</button>
 
-  <!-- Bouton PDF uniquement sur les recettes -->
+  <!-- Bouton PDF (uniquement si page recette) -->
   {{ if eq .Type "recipe" }}
     <button id="download-pdf">📄 Télécharger la recette en PDF</button>
   {{ end }}
@@ -74,7 +75,7 @@
   <!-- Contenu principal -->
   {{ block "main" . }}{{ end }}
 
-  <!-- Mode sombre script -->
+  <!-- Script mode clair/sombre -->
   <script>
     const toggleButton = document.getElementById('mode-toggle');
     const body = document.body;
@@ -90,47 +91,48 @@
     });
   </script>
 
-<script>
-  document.getElementById("download-pdf").addEventListener("click", () => {
-    const { jsPDF } = window.jspdf;
-    const doc = new jsPDF();
+  <!-- jsPDF pour le PDF texte stylé -->
+  {{ if eq .Type "recipe" }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script>
+    document.getElementById("download-pdf").addEventListener("click", () => {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF();
 
-    // Personnalisation typographique ici
-    doc.setFont("Times", "italic"); // ou "courier", etc.
-    doc.setFontSize(16);
-    doc.setTextColor(30, 30, 30);
+      // Police et style LaTeX-like
+      doc.setFont("Times", "italic");
+      doc.setFontSize(18);
+      const title = document.querySelector('.recipe-title')?.innerText || 'Recette';
+      doc.text(title, 20, 20);
 
-    // Titre
-    const title = document.querySelector('.recipe-title')?.innerText || 'Recette';
-    doc.text(title, 20, 20);
+      let y = 30;
 
-    // Ingrédients
-    doc.setFontSize(12);
-    doc.setFont("Times", "normal");
-    doc.text("Ingrédients :", 20, 40);
-    const ingredients = document.querySelector('.recipe-ingredients')?.innerText.trim();
-    if (ingredients) {
-      const lines = doc.splitTextToSize(ingredients, 170);
-      doc.text(lines, 20, 48);
-    }
+      const ingredients = document.querySelector('.recipe-ingredients')?.innerText.trim();
+      if (ingredients) {
+        doc.setFontSize(14);
+        doc.setFont("Times", "normal");
+        doc.text("Ingrédients :", 20, y);
+        y += 10;
+        const lines = doc.splitTextToSize(ingredients, 170);
+        doc.text(lines, 20, y);
+        y += lines.length * 7;
+      }
 
-    // Préparation
-    let y = doc.lastAutoTable ? doc.lastAutoTable.finalY + 10 : 90;
-    doc.setFont("Times", "bold");
-    doc.text("Préparation :", 20, y);
-    doc.setFont("Times", "normal");
-    y += 8;
-    const preparation = document.querySelector('.recipe-preparation')?.innerText.trim();
-    if (preparation) {
-      const lines = doc.splitTextToSize(preparation, 170);
-      doc.text(lines, 20, y);
-    }
+      const preparation = document.querySelector('.recipe-preparation')?.innerText.trim();
+      if (preparation) {
+        doc.setFontSize(14);
+        doc.setFont("Times", "bold");
+        doc.text("Préparation :", 20, y);
+        y += 10;
+        doc.setFont("Times", "normal");
+        const lines = doc.splitTextToSize(preparation, 170);
+        doc.text(lines, 20, y);
+      }
 
-    doc.save(title.replace(/\s+/g, '_').toLowerCase() + '.pdf');
-  });
-</script>
-
+      // Enregistrer
+      doc.save(title.replace(/\s+/g, '_').toLowerCase() + '.pdf');
+    });
+  </script>
   {{ end }}
 </body>
 </html>
-
