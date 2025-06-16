@@ -1,47 +1,38 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-
-  <!-- Bouton PDF -->
-  <button id="download-pdf" class="no-print" style="margin: 12px 0; padding: 8px 16px; border: none; border-radius: 8px; background-color: #333; color: white; cursor: pointer;">
-    📄 Télécharger la recette en PDF
-  </button>
-
-  <!-- Tout le contenu de la recette à inclure dans le PDF -->
   <div id="recipe-pdf-content">
+    <h1 class="recipe-title">{{ .Title }}</h1>
 
     {{- $sectionDelimiter := "<!-- section -->" -}}
     {{- $rawContentSections := split .RawContent $sectionDelimiter -}}
     {{- $sectionCount := len $rawContentSections -}}
 
     {{- if gt $sectionCount 1 -}}
-      <div id="image">
+      <div class="recipe-image">
         {{ index $rawContentSections 0 | .RenderString }}
       </div>
 
-      {{- if ge $sectionCount 2 -}}
-        <div id="ingredients-container">
-          {{ index $rawContentSections 1 | .RenderString }}
-        </div>
-      {{- end -}}
+      {{ if ge $sectionCount 2 }}
+      <div class="recipe-ingredients" style="background-color: #f8f8f8; padding: 16px; border: 1px solid #ddd; border-radius: 8px;">
+        {{ index $rawContentSections 1 | .RenderString }}
+      </div>
+      {{ end }}
 
-      {{- if ge $sectionCount 3 -}}
-        <div id="section-2">
-          {{ index $rawContentSections 2 | .RenderString }}
-        </div>
-      {{- end -}}
+      {{ if ge $sectionCount 3 }}
+      <div class="recipe-preparation">
+        {{ index $rawContentSections 2 | .RenderString }}
+      </div>
+      {{ end }}
 
-      {{- if ge $sectionCount 4 -}}
-        <div id="section-3">
-          {{ index $rawContentSections 3 | .RenderString }}
-        </div>
-      {{- end -}}
+      {{ if ge $sectionCount 4 }}
+      <div class="recipe-notes">
+        {{ index $rawContentSections 3 | .RenderString }}
+      </div>
+      {{ end }}
 
-    {{- else -}}
-      <div id="content-not-split-into-sections">
+    {{ else }}
+      <div class="recipe-full">
         {{ .Content }}
       </div>
-    {{- end }}
-
+    {{ end }}
   </div>
 {{ end }}
-
