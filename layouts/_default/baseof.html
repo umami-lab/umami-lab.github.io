@@ -83,5 +83,26 @@
       });
     </script>
 
+    
+  <!-- Bouton pour générer un PDF -->
+  <button id="download-pdf" class="no-print" style="margin: 12px 0; padding: 8px 16px; border: none; border-radius: 8px; background-color: #333; color: white; cursor: pointer;">
+    📄 Télécharger la recette en PDF
+  </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script>
+    document.getElementById("download-pdf").addEventListener("click", function () {
+        const element = document.getElementById("recipe-pdf-content");
+        const opt = {
+            margin: 0.5,
+            filename: document.title.replace(/\s+/g, '_').toLowerCase() + '.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+        };
+        html2pdf().set(opt).from(element).save();
+    });
+</script>
+
 </body>
 </html>
