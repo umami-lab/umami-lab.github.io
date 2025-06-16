@@ -1,58 +1,54 @@
-.pdf-style {
-  font-family: "Computer Modern", "Georgia", serif;
-  color: #000;
-  background: white;
-  margin: 2cm;
-  padding: 1cm;
-  font-size: 12pt;
-  line-height: 1.6;
-  max-width: 18cm;
-}
+/* static/css/pdf.css */
 
-.latex-title {
-  text-align: center;
-  font-size: 20pt;
-  margin-bottom: 0.5cm;
-}
+/* S'applique uniquement au PDF */
+@media print {
+  body {
+    font-family: "Georgia", serif;
+    color: #000;
+    background: white;
+    margin: 2cm;
+  }
 
-.latex-subtitle {
-  text-align: center;
-  font-size: 16pt;
-  font-style: italic;
-  margin-bottom: 0.5cm;
-}
+  h1, h2, h3 {
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
 
-.author {
-  text-align: center;
-  font-size: 12pt;
-  margin-bottom: 0;
-}
+  h1 {
+    font-size: 2.2em;
+  }
 
-.date {
-  text-align: center;
-  font-size: 10pt;
-  margin-bottom: 1cm;
-  color: #555;
-}
+  h2 {
+    font-size: 1.6em;
+    border-bottom: 1px solid #000;
+    padding-bottom: 4px;
+  }
 
-.separator {
-  border: 1px solid #ccc;
-  margin: 1cm 0;
-}
+  h3 {
+    font-size: 1.3em;
+    text-align: left;
+  }
 
-.section-title {
-  font-size: 14pt;
-  font-weight: bold;
-  margin-top: 1cm;
-  margin-bottom: 0.5cm;
-}
+  p {
+    font-size: 1.05em;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 0.5em 0;
+  }
 
-.pdf-style ul,
-.pdf-style ol {
-  padding-left: 1.2cm;
-}
+  ul, ol {
+    margin-left: 2em;
+    font-size: 1em;
+  }
 
-.pdf-style img {
-  max-width: 100%;
-  height: auto;
+  hr {
+    margin: 2em 0;
+  }
+
+  .no-print {
+    display: none !important;
+  }
 }
