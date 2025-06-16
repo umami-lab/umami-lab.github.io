@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.css">
     <!-- Ton CSS dédié au PDF, uniquement à l'impression -->
-  <link rel="stylesheet" href="/css/pdf.css" media="print">
+  {{ $pdfStyle := resources.Get "css/pdf.css" | minify }}
+  <link rel="stylesheet" href="{{ $pdfStyle.Permalink }}" media="print">
+
 
   <style>
     #mode-toggle {
