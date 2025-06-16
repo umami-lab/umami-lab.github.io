@@ -1,0 +1,58 @@
+.pdf-style {
+  font-family: "Computer Modern", "Georgia", serif;
+  color: #000;
+  background: white;
+  margin: 2cm;
+  padding: 1cm;
+  font-size: 12pt;
+  line-height: 1.6;
+  max-width: 18cm;
+}
+
+.latex-title {
+  text-align: center;
+  font-size: 20pt;
+  margin-bottom: 0.5cm;
+}
+
+.latex-subtitle {
+  text-align: center;
+  font-size: 16pt;
+  font-style: italic;
+  margin-bottom: 0.5cm;
+}
+
+.author {
+  text-align: center;
+  font-size: 12pt;
+  margin-bottom: 0;
+}
+
+.date {
+  text-align: center;
+  font-size: 10pt;
+  margin-bottom: 1cm;
+  color: #555;
+}
+
+.separator {
+  border: 1px solid #ccc;
+  margin: 1cm 0;
+}
+
+.section-title {
+  font-size: 14pt;
+  font-weight: bold;
+  margin-top: 1cm;
+  margin-bottom: 0.5cm;
+}
+
+.pdf-style ul,
+.pdf-style ol {
+  padding-left: 1.2cm;
+}
+
+.pdf-style img {
+  max-width: 100%;
+  height: auto;
+}
