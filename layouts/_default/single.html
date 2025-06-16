@@ -1,47 +1,47 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
 
-  {{- $sectionDelimiter := "<!-- section -->" -}}
-  {{- $rawContentSections := split .RawContent $sectionDelimiter -}}
-  {{- $sectionCount := len $rawContentSections -}}
+  <!-- Bouton PDF -->
+  <button id="download-pdf" class="no-print" style="margin: 12px 0; padding: 8px 16px; border: none; border-radius: 8px; background-color: #333; color: white; cursor: pointer;">
+    📄 Télécharger la recette en PDF
+  </button>
 
-  {{- if gt $sectionCount 1 -}}
-    <div id="image">
+  <!-- Tout le contenu de la recette à inclure dans le PDF -->
+  <div id="recipe-pdf-content">
+
+    {{- $sectionDelimiter := "<!-- section -->" -}}
+    {{- $rawContentSections := split .RawContent $sectionDelimiter -}}
+    {{- $sectionCount := len $rawContentSections -}}
+
+    {{- if gt $sectionCount 1 -}}
+      <div id="image">
         {{ index $rawContentSections 0 | .RenderString }}
-    </div>
+      </div>
 
-  {{- if ge $sectionCount 2 -}}
-    <div id="ingredients-container">
-        {{ index $rawContentSections 1 | .RenderString }}
-    </div>
-  {{- end -}} <!-- Fermeture du if pour les ingrédients -->
+      {{- if ge $sectionCount 2 -}}
+        <div id="ingredients-container">
+          {{ index $rawContentSections 1 | .RenderString }}
+        </div>
+      {{- end -}}
 
-  {{- if ge $sectionCount 3 -}}
-    <div id="section-2">
-      {{ index $rawContentSections 2 | .RenderString }}
-    </div>
-  {{- end -}} <!-- Fermeture du if pour la section 2 -->
+      {{- if ge $sectionCount 3 -}}
+        <div id="section-2">
+          {{ index $rawContentSections 2 | .RenderString }}
+        </div>
+      {{- end -}}
 
-  {{- if ge $sectionCount 4 -}}
-    <div id="section-3">
-      {{ index $rawContentSections 3 | .RenderString }}
-    </div>
-  {{- end -}} <!-- Fermeture du if pour la section 3 -->
+      {{- if ge $sectionCount 4 -}}
+        <div id="section-3">
+          {{ index $rawContentSections 3 | .RenderString }}
+        </div>
+      {{- end -}}
 
-  {{- else -}}
-    <div id="content-not-split-into-sections">
-      {{ .Content }}
-    </div>
-  {{- end -}}
+    {{- else -}}
+      <div id="content-not-split-into-sections">
+        {{ .Content }}
+      </div>
+    {{- end }}
 
-<!-- Bouton pour générer un PDF -->
-<button id="download-pdf" class="no-print" style="margin: 12px 0; padding: 8px 16px; border: none; border-radius: 8px; background-color: #333; color: white; cursor: pointer;">
-  📄 Télécharger la recette en PDF
-</button>
-
-<!-- Conteneur de la recette -->
-<div id="recipe-pdf-content">
-  <!-- ici tu laisses les blocs image / ingredients / etc. -->
-</div>
-
+  </div>
 {{ end }}
+
