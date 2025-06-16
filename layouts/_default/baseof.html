@@ -8,10 +8,12 @@
   {{ $styles := resources.Get "css/style.css" | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
-  <!-- CSS PDF (impression) -->
+  <!-- Ne PAS charger pdf.css ici pour ne pas impacter la page web -->
+  <!--
   {{ with resources.Get "css/pdf.css" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}" media="print">
   {{ end }}
+  -->
 
   <style>
     /* Bouton mode sombre */
@@ -99,7 +101,7 @@
       const { jsPDF } = window.jspdf;
       const doc = new jsPDF();
 
-      // Police et style LaTeX-like
+      // Mise en forme "LaTeX-like" dans jsPDF uniquement :
       doc.setFont("Times", "italic");
       doc.setFontSize(18);
       const title = document.querySelector('.recipe-title')?.innerText || 'Recette';
@@ -129,10 +131,10 @@
         doc.text(lines, 20, y);
       }
 
-      // Enregistrer
       doc.save(title.replace(/\s+/g, '_').toLowerCase() + '.pdf');
     });
   </script>
   {{ end }}
 </body>
 </html>
+
