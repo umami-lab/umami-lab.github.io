@@ -20,8 +20,15 @@
   margin-top: 1em;
 }
 
+.latex-pdf img {
+  display: block;
+  margin: 1em auto;
+  max-width: 100%;
+}
+
 .latex-pdf button,
 .latex-pdf #mode-toggle,
 .latex-pdf #download-pdf {
   display: none !important;
 }
+
