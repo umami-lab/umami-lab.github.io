@@ -7,12 +7,11 @@
 
   {{ $styles := resources.Get "css/style.css" | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+
+  {{ $pdfStyles := resources.Get "css/pdf.css" | minify }}
+  <link rel="stylesheet" href="{{ $pdfStyles.Permalink }}" media="screen">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.css">
-    <!-- Ton CSS dédié au PDF, uniquement à l'impression -->
-  {{ $pdfStyle := resources.Get "css/pdf.css" | minify }}
-  <link rel="stylesheet" href="{{ $pdfStyle.Permalink }}" media="screen">
-
-
 
   <style>
     #mode-toggle {
@@ -63,10 +62,11 @@
 </head>
 
 <body>
+
   <!-- Bouton mode sombre -->
   <button id="mode-toggle">Passer en mode sombre</button>
 
-  <!-- Bouton PDF, visible uniquement sur les pages de recette -->
+  <!-- Bouton PDF uniquement sur les recettes -->
   {{ if eq .Type "recipe" }}
     <button id="download-pdf">📄 Télécharger la recette en PDF</button>
   {{ end }}
@@ -74,7 +74,7 @@
   <!-- Contenu principal -->
   {{ block "main" . }}{{ end }}
 
-  <!-- Scripts -->
+  <!-- Mode sombre script -->
   <script>
     const toggleButton = document.getElementById('mode-toggle');
     const body = document.body;
@@ -90,42 +90,31 @@
     });
   </script>
 
-  <!-- jsPDF -->
+  <!-- Génération PDF -->
   {{ if eq .Type "recipe" }}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script>
-    document.getElementById("download-pdf").addEventListener("click", () => {
-      const { jsPDF } = window.jspdf;
-      const doc = new jsPDF();
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script>
+      document.getElementById("download-pdf").addEventListener("click", function () {
+        const element = document.getElementById("recipe-pdf-content");
 
-      const title = document.querySelector('.recipe-title')?.innerText || 'Recette';
-      doc.setFontSize(18);
-      doc.text(title, 20, 20);
+        // Ajout temporaire du style LaTeX
+        element.classList.add("latex-pdf");
 
-      let y = 30;
+        const opt = {
+          margin: 0,
+          filename: document.title.replace(/\s+/g, '_').toLowerCase() + '.pdf',
+          image: { type: 'jpeg', quality: 0.98 },
+          html2canvas: { scale: 2 },
+          jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+        };
 
-      const ingredients = document.querySelector('.recipe-ingredients')?.innerText.trim();
-      if (ingredients) {
-        doc.setFontSize(14);
-        doc.text('Ingrédients :', 20, y);
-        y += 8;
-        const lines = doc.splitTextToSize(ingredients, 170);
-        doc.text(lines, 20, y);
-        y += lines.length * 7;
-      }
-
-      const preparation = document.querySelector('.recipe-preparation')?.innerText.trim();
-      if (preparation) {
-        doc.setFontSize(14);
-        doc.text('Préparation :', 20, y);
-        y += 8;
-        const lines = doc.splitTextToSize(preparation, 170);
-        doc.text(lines, 20, y);
-      }
-
-      doc.save(title.replace(/\s+/g, '_').toLowerCase() + '.pdf');
-    });
-  </script>
+        html2pdf().set(opt).from(element).save().then(() => {
+          // Nettoyage de la classe après génération
+          element.classList.remove("latex-pdf");
+        });
+      });
+    </script>
   {{ end }}
 </body>
 </html>
+
