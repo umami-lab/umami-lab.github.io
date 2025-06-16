@@ -1,35 +1,33 @@
-@media print {
-  body {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12pt;
-    line-height: 1.6;
-    color: #000;
-    background: white;
-    margin: 2cm;
-  }
-
-  h1, h2, h3 {
-    font-weight: bold;
-    text-align: center;
-    margin-top: 1.5em;
-  }
-
-  .recipe-ingredients, .recipe-preparation, .recipe-notes {
-    margin-top: 1em;
-    text-align: justify;
-  }
-
-  img {
-    max-width: 100%;
-    display: block;
-    margin: 1em auto;
-  }
-
-  button,
-  #mode-toggle,
-  #download-pdf,
-  .no-print {
-    display: none !important;
-  }
+/* Nouveau : style appliqué explicitement via une classe */
+.latex-pdf {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 1.6;
+  color: #000;
+  background: white;
+  margin: 2cm;
 }
 
+.latex-pdf h1, .latex-pdf h2, .latex-pdf h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.latex-pdf .recipe-ingredients,
+.latex-pdf .recipe-preparation,
+.latex-pdf .recipe-notes {
+  text-align: justify;
+  margin-top: 1em;
+}
+
+.latex-pdf img {
+  display: block;
+  margin: 1em auto;
+  max-width: 100%;
+}
+
+.latex-pdf button,
+.latex-pdf #mode-toggle,
+.latex-pdf #download-pdf {
+  display: none !important;
+}
