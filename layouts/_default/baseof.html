@@ -90,30 +90,46 @@
     });
   </script>
 
-  <!-- Génération PDF -->
-  {{ if eq .Type "recipe" }}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-    <script>
-      document.getElementById("download-pdf").addEventListener("click", function () {
-        const element = document.getElementById("recipe-pdf-content");
+<script>
+  document.getElementById("download-pdf").addEventListener("click", () => {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
 
-        // Ajout temporaire du style LaTeX
-        element.classList.add("latex-pdf");
+    // Personnalisation typographique ici
+    doc.setFont("Times", "italic"); // ou "courier", etc.
+    doc.setFontSize(16);
+    doc.setTextColor(30, 30, 30);
 
-        const opt = {
-          margin: 0,
-          filename: document.title.replace(/\s+/g, '_').toLowerCase() + '.pdf',
-          image: { type: 'jpeg', quality: 0.98 },
-          html2canvas: { scale: 2 },
-          jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
-        };
+    // Titre
+    const title = document.querySelector('.recipe-title')?.innerText || 'Recette';
+    doc.text(title, 20, 20);
 
-        html2pdf().set(opt).from(element).save().then(() => {
-          // Nettoyage de la classe après génération
-          element.classList.remove("latex-pdf");
-        });
-      });
-    </script>
+    // Ingrédients
+    doc.setFontSize(12);
+    doc.setFont("Times", "normal");
+    doc.text("Ingrédients :", 20, 40);
+    const ingredients = document.querySelector('.recipe-ingredients')?.innerText.trim();
+    if (ingredients) {
+      const lines = doc.splitTextToSize(ingredients, 170);
+      doc.text(lines, 20, 48);
+    }
+
+    // Préparation
+    let y = doc.lastAutoTable ? doc.lastAutoTable.finalY + 10 : 90;
+    doc.setFont("Times", "bold");
+    doc.text("Préparation :", 20, y);
+    doc.setFont("Times", "normal");
+    y += 8;
+    const preparation = document.querySelector('.recipe-preparation')?.innerText.trim();
+    if (preparation) {
+      const lines = doc.splitTextToSize(preparation, 170);
+      doc.text(lines, 20, y);
+    }
+
+    doc.save(title.replace(/\s+/g, '_').toLowerCase() + '.pdf');
+  });
+</script>
+
   {{ end }}
 </body>
 </html>
