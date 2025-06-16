@@ -1,109 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title }}</title>
-    {{ $styles := resources.Get "css/style.css" | minify }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.css'>
-    <style>
-        /* Style pour le bouton en haut de la page */
-        #mode-toggle {
-            position: fixed;
-            top: 16px;
-            left: 16px;
-            padding: 10px 16px;
-            background-color: #f5f5f5;
-            color: #000;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
-            z-index: 1000;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ .Title }}</title>
 
-        /* Modifications supplémentaires pour la page */
-        body {
-            padding-top: 50px; /* Laisse de l'espace pour le bouton en haut */
-        }
+  {{ $styles := resources.Get "css/style.css" | minify }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.css">
 
-        /* Style du bouton lorsqu'il est en mode sombre */
-        body.sombre #mode-toggle {
-            background-color: #333;
-            color: #fff;
-        }
+  <style>
+    #mode-toggle {
+      position: fixed;
+      top: 16px;
+      left: 16px;
+      padding: 10px 16px;
+      background-color: #f5f5f5;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      z-index: 1000;
+    }
 
-        /* Mode clair (par défaut) */
-        body {
-            background-color: #ffffff;
-            color: #000000;
-        }
+    body {
+      padding-top: 60px;
+      background-color: #ffffff;
+      color: #000000;
+    }
 
-        /* Mode sombre */
-        body.sombre {
-            background-color: #333;
-            color: #ffffff;
-        }
-    </style>
+    body.sombre {
+      background-color: #333;
+      color: #ffffff;
+    }
+
+    body.sombre #mode-toggle {
+      background-color: #333;
+      color: #fff;
+    }
+
+    #download-pdf {
+      margin: 12px 0;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 8px;
+      background-color: #333;
+      color: white;
+      cursor: pointer;
+    }
+
+    body.sombre #download-pdf {
+      background-color: #f5f5f5;
+      color: #000;
+    }
+  </style>
 </head>
 
 <body>
+  <!-- Bouton mode sombre -->
+  <button id="mode-toggle">Passer en mode sombre</button>
 
-    <!-- Bouton pour changer le mode, visible en haut de la page -->
-    <button id="mode-toggle">Passer en mode sombre</button>
+  <!-- Bouton PDF, visible uniquement sur les pages de recette -->
+  {{ if eq .Type "recipe" }}
+    <button id="download-pdf">📄 Télécharger la recette en PDF</button>
+  {{ end }}
 
-    <!-- Contenu principal de la page -->
-    {{ block "main" . }}{{ end }}
+  <!-- Contenu principal -->
+  {{ block "main" . }}{{ end }}
 
-    <!-- Script JavaScript pour basculer entre les modes sombre/clair -->
-    <script>
-      // Sélectionne le bouton et le body
-      const toggleButton = document.getElementById('mode-toggle');
-      const body = document.body;
-
-      // Vérifie si le mode sombre est activé dans le localStorage
-      if (localStorage.getItem('mode') === 'sombre') {
-        body.classList.add('sombre');
-        toggleButton.textContent = 'Passer en mode clair';
-      }
-
-      // Ajoute un écouteur d'événement pour le bouton
-      toggleButton.addEventListener('click', () => {
-        body.classList.toggle('sombre');
-
-        // Enregistre l'état du mode dans le localStorage
-        if (body.classList.contains('sombre')) {
-          localStorage.setItem('mode', 'sombre');
-          toggleButton.textContent = 'Clair';
-        } else {
-          localStorage.setItem('mode', 'clair');
-          toggleButton.textContent = 'Sombre';
-        }
-      });
-    </script>
-
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const pdfBtn = document.getElementById("download-pdf");
-    if (pdfBtn) {
-      pdfBtn.addEventListener("click", function () {
-        const element = document.getElementById("recipe-pdf-content");
-        if (!element) return;
-        const opt = {
-          margin: 0.5,
-          filename: document.title.replace(/\s+/g, '_').toLowerCase() + '.pdf',
-          image: { type: 'jpeg', quality: 0.98 },
-          html2canvas: { scale: 2 },
-          jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
-        };
-        html2pdf().set(opt).from(element).save();
-      });
+  <!-- Scripts -->
+  <script>
+    const toggleButton = document.getElementById('mode-toggle');
+    const body = document.body;
+    if (localStorage.getItem('mode') === 'sombre') {
+      body.classList.add('sombre');
+      toggleButton.textContent = 'Passer en mode clair';
     }
-  });
-</script>
+    toggleButton.addEventListener('click', () => {
+      body.classList.toggle('sombre');
+      const mode = body.classList.contains('sombre') ? 'sombre' : 'clair';
+      localStorage.setItem('mode', mode);
+      toggleButton.textContent = mode === 'sombre' ? 'Passer en mode clair' : 'Passer en mode sombre';
+    });
+  </script>
 
-</body>
-</html>
+  <!
